@@ -1,0 +1,201 @@
+title,link,authors,metric,year
+Codexglue: A machine learning benchmark dataset for code understanding and generation,https://arxiv.org/abs/2102.04664,"S Lu, D Guo, S Ren, J Huang, A Svyatkovskiy",CodeBLEU,2021
+Cotext: Multi-task learning with code-text transformer,https://arxiv.org/abs/2105.08645,"L Phan, H Tran, D Le, H Nguyen, J Anibal",CodeBLEU,2021
+Retrieval augmented code generation and summarization,https://arxiv.org/abs/2108.11601,"MR Parvez, WU Ahmad, S Chakraborty, B Ray",CodeBLEU,2021
+Codet5: Identifier-aware unified pre-trained encoder-decoder models for code understanding and generation,https://arxiv.org/abs/2109.00859,"Y Wang, W Wang, S Joty, SCH Hoi",CodeBLEU,2021
+Using document similarity methods to create parallel datasets for code translation,https://arxiv.org/abs/2110.05423,"M Agarwal, K Talamadupula",CodeBLEU,2021
+Avatar: A parallel corpus for java-python program translation,https://arxiv.org/abs/2108.11590,"WU Ahmad, S Chakraborty",CodeBLEU,2021
+Unified pre-training for program understanding and generation,https://arxiv.org/abs/2103.06333,"WU Ahmad, S Chakraborty, B Ray",CodeBLEU,2021
+Syncobert: Syntax-guided multi-modal contrastive pre-training for code representation,https://arxiv.org/abs/2108.04556,"X Wang, Y Wang, F Mi, P Zhou, Y Wan, X Liu",CodeBLEU,2021
+Many Heads but One Brain: Fusion Brain--a Competition and a Single Multimodal Multitask Architecture,https://arxiv.org/abs/2111.10974,"D Bakshandaeva, D Dimitrov",CodeBLEU,2021
+CrystalBLEU: precisely and efficiently measuring the similarity of code,https://software-lab.org/publications/ase2022_CrystalBLEU.pdf,"A Eghbali, M Pradel",CodeBLEU,2022
+Multilingual code snippets training for program translation,https://ojs.aaai.org/index.php/AAAI/article/view/21434,"M Zhu, K Suresh, CK Reddy",CodeBLEU,2022
+ReCode: Robustness evaluation of code generation models,https://arxiv.org/abs/2212.10264,"S Wang, Z Li, H Qian, C Yang, Z Wang",CodeBLEU,2022
+Babeltower: Learning to auto-parallelized program translation,https://proceedings.mlr.press/v162/wen22b.html,Y Wen,CodeBLEU,2022
+Codepad: Sequence-based code generation with pushdown automaton,https://arxiv.org/abs/2211.00818,"Y Dong, X Jiang, G Li, Z Jin",CodeBLEU,2022
+No more fine-tuning? an experimental evaluation of prompt tuning in code intelligence,https://arxiv.org/pdf/2207.11680,"C Wang, Y Yang, C Gao, Y Peng, H Zhang",CodeBLEU,2022
+An extensive study on pre-trained models for program understanding and generation,https://dl.acm.org/doi/abs/10.1145/3533767.3534390,"Z Zeng, H Tan, J Li, Y Zhang",CodeBLEU,2022
+Human perceiving behavior modeling in evaluation of code generation models,https://aclanthology.org/2022.gem-1.24/,SV Kovalchuk,CodeBLEU,2022
+Autoupdate: Automatically recommend code updates for android apps,https://www.researchgate.net/profile/Patanamon-Thongtanunam-2/publication/363585009_AutoUpdate_Automatically_Recommend_Code_Updates_for_Android_Apps/links/6500577df8931a4e29baf16f/AutoUpdate-Automatically-Recommend-Code-Updates-for-Android-Apps.pdf,"Y Liu, C Tantithamthavorn, Y Liu",CodeBLEU,2022
+Execution-based evaluation for data science code generation models,https://arxiv.org/abs/2211.09374,"J Huang, C Wang, J Zhang, C Yan, H Cui",CodeBLEU,2022
+Codegeex: A pre-trained model for code generation with multilingual benchmarking on humaneval-x,https://dl.acm.org/doi/abs/10.1145/3580305.3599790,"Q Zheng, X Xia, X Zou, Y Dong, S Wang",CodeBLEU,2023
+Codebertscore: Evaluating code generation with pretrained models of code,https://arxiv.org/abs/2302.05527,"S Zhou, U Alon, S Agarwal, G Neubig",CodeBLEU,2023
+Codetransocean: A comprehensive multilingual benchmark for code translation,https://arxiv.org/abs/2310.04951,"W Yan, Y Tian, Y Li, Q Chen, W Wang",CodeBLEU,2023
+CODEP: grammatical seq2seq model for general-purpose code generation,https://dl.acm.org/doi/abs/10.1145/3597926.3598048,"Y Dong, G Li, Z Jin",CodeBLEU,2023
+RTCoder: An approach based on retrieve-template for automatic code generation,https://ieeexplore.ieee.org/abstract/document/10475966/,"S Chen, G Fan, Z Feng",CodeBLEU,2023
+Multilingual code co-evolution using large language models,https://dl.acm.org/doi/abs/10.1145/3611643.3616350,"J Zhang, P Nie, JJ Li, M Gligoric",CodeBLEU,2023
+On the robustness of code generation techniques: An empirical study on github copilot,https://arxiv.org/pdf/2302.00438,"A Mastropaolo, L Pascarella",CodeBLEU,2023
+Codeattack: Code-based adversarial attacks for pre-trained programming language models,https://ojs.aaai.org/index.php/AAAI/article/view/26739,"A Jha, CK Reddy",CodeBLEU,2023
+Codet5+: Open code large language models for code understanding and generation,https://arxiv.org/abs/2305.07922,"Y Wang, H Le, AD Gotmare, NDQ Bui, J Li",CodeBLEU,2023
+JaCoText: a pretrained model for Java code-text generation,https://arxiv.org/abs/2303.12869,"JL Espejel, MSY Alassan",CodeBLEU,2023
+Codebpe: Investigating subtokenization options for large language model pretraining on source code,https://arxiv.org/abs/2308.00683,"N Chirkova, S Troshin",CodeBLEU,2023
+Large language model-aware in-context learning for code generation,https://dl.acm.org/doi/abs/10.1145/3715908,"J Li, C Tao, J Li, G Li, Z Jin, H Zhang, Z Fang",CodeBLEU,2023
+Skcoder: A sketch-based approach for automatic code generation,https://ieeexplore.ieee.org/abstract/document/10172719/,"J Li, Y Li, G Li, Z Jin, Y Hao, X Hu",CodeBLEU,2023
+Exploring data augmentation for code generation tasks,https://arxiv.org/abs/2302.03499,"P Chen, G Lampouras",CodeBLEU,2023
+A review on code generation with llms: Application and evaluation,https://ieeexplore.ieee.org/abstract/document/10403378/,,CodeBLEU,2023
+Enhancing large language models for secure code generation: A dataset-driven study on vulnerability mitigation,https://arxiv.org/abs/2310.16263,"J Wang, L Cao, A Jatowt",CodeBLEU,2023
+Rethinking AI code generation: a one-shot correction approach based on user feedback,https://link.springer.com/article/10.1007/s10515-024-00451-y,"KT Le, A Andrzejak",CodeBLEU,2024
+Codeinsight: A curated dataset of practical coding solutions from stack overflow,https://arxiv.org/abs/2409.16819,"N Beau, B Crabbé",CodeBLEU,2024
+Coderosetta: Pushing the boundaries of unsupervised code translation for parallel programming,https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6edb87876bec4ac2260bffa083cb992-Abstract-Conference.html,"A Tehrani, A Bhattacharjee, L Chen",CodeBLEU,2024
+On the limitations of embedding based methods for measuring functional correctness for code generation,https://arxiv.org/abs/2405.01580,A Naik,CodeBLEU,2024
+LecPrompt: A Prompt-based Approach for Logical Error Correction with CodeBERT,https://arxiv.org/abs/2410.08241,VS Sheng,CodeBLEU,2024
+Complexcodeeval: A benchmark for evaluating large code models on more complex code,https://arxiv.org/pdf/2409.10280,"C Gao, CY Chong, C Wang",CodeBLEU,2024
+Codejudge: Evaluating code generation with large language models,https://arxiv.org/abs/2410.02184,T Zhang,CodeBLEU,2024
+Codes: Natural language to code repository via multi-layer sketch,https://arxiv.org/abs/2403.16443,"D Zan, D Chen",CodeBLEU,2024
+TaskEval: Assessing Difficulty of Code Generation Tasks for Large Language Models,https://arxiv.org/abs/2407.21227,"F Tambon, A Nikanjam, C Zid, F Khomh",CodeBLEU,2024
+How important are good method names in neural code generation? a model robustness perspective,https://arxiv.org/pdf/2211.15844,"G Yang, Y Zhou, W Yang, T Yue, X Chen",CodeBLEU,2024
+Python code generation from a natural language description,https://theses.hal.science/tel-05154880/,N Beau,CodeBLEU,2024
+Codescore: Evaluating code generation by learning code execution,https://arxiv.org/pdf/2301.09043,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CodeBLEU,2025
+aiXcoder-7B: A Lightweight and Effective Large Language Model for Code Processing,https://arxiv.org/pdf/2410.13187,"J Li, H Zong, H Liu, H Zhu",CodeBLEU,2025
+Deep Learning Based Optimization of Large Language Models for Code Generation,https://www.preprints.org/frontend/manuscript/354413751348bfd66bfb66eb4c3edd73/download_pub,Y Yao,CodeBLEU,2025
+Evaluating Pre-Trained Models for Multi-Language Vulnerability Patching,https://arxiv.org/abs/2501.07339,"ZA Khan, A Garg, Y Guo, Q Tang",CodeBLEU,2025
+A Code Comprehension Benchmark for Large Language Models for Code,https://arxiv.org/abs/2507.10641,"S Chaudhary, G Ramakrishnan",CodeBLEU,2025
+"Using Large Language Models for Aerospace Code Generation: Methods, Benchmarks, and Potential Values",https://www.mdpi.com/2226-4310/12/6/498,,CodeBLEU,2025
+RETROcode: Leveraging a Code Database for Improved Natural Language to Code Generation,https://arxiv.org/abs/2504.05759,"N Beau, B Crabbé",CodeBLEU,2025
+Beyond Surface Similarity: Evaluating LLM-Based Test Refactorings with Structural and Semantic Awareness,https://arxiv.org/abs/2506.06767,"WC Ouédraogo, Y Li, X Dang, X Zhou",CodeBLEU,2025
+Cloud software code generation via knowledge graphs and multi-modal learning,https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-025-00758-5,"F Zhang, Q Chen",CodeBLEU,2025
+Towards a platform for benchmarking Large Language Models,https://repositorium.sdum.uminho.pt/handle/1822/96851,SPS Cunha,CodeBLEU,2025
+CodeGuard: A Generalized and Stealthy Backdoor Watermarking for Generative Code Models,https://arxiv.org/abs/2506.20926,J Zhang,CodeBLEU,2025
+CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs,https://arxiv.org/abs/2506.11059,"H Guo, S Cheng, K Zhang, G Shen",CodeBLEU,2025
+CrystalBLEU: precisely and efficiently measuring the similarity of code,https://software-lab.org/publications/ase2022_CrystalBLEU.pdf,"A Eghbali, M Pradel",CrystalBLEU,2022
+Codebertscore: Evaluating code generation with pretrained models of code,https://arxiv.org/abs/2302.05527,"S Zhou, U Alon, S Agarwal, G Neubig",CrystalBLEU,2023
+Evaluating and optimizing the effectiveness of neural machine translation in supporting code retrieval models: A study on the cat benchmark,https://dl.acm.org/doi/abs/10.1145/3583780.3614869,"H Phan, A Jannesari",CrystalBLEU,2023
+Efficient avoidance of vulnerabilities in auto-completed smart contract code using vulnerability-constrained decoding,https://arxiv.org/pdf/2309.09826,"A Storhaug, J Li, T Hu",CrystalBLEU,2023
+CodeEditor: Learning to Edit Source Code with Pre-trained Models,https://arxiv.org/pdf/2210.17040,"J Li, G Li, Z Li, Z Jin, X Hu, K Zhang",CrystalBLEU,2023
+Automatikz: Text-guided synthesis of scientific vector graphics with tikz,https://arxiv.org/abs/2310.00367,"J Belouadi, A Lauscher, S Eger",CrystalBLEU,2023
+Two birds with one stone: Boosting code generation and code search via a generative adversarial network,https://dl.acm.org/doi/abs/10.1145/3622815,"S Wang, B Lin, Z Sun, M Wen, Y Liu, Y Lei",CrystalBLEU,2023
+A syntax-guided multi-task learning approach for Turducken-style code generation,https://link.springer.com/article/10.1007/s10664-023-10372-1,"G Yang, Y Zhou, X Chen, X Zhang",CrystalBLEU,2023
+On the limitations of embedding based methods for measuring functional correctness for code generation,https://arxiv.org/abs/2405.01580,A Naik,CrystalBLEU,2024
+How the training procedure impacts the performance of deep learning-based vulnerability patching,https://dl.acm.org/doi/abs/10.1145/3661167.3661200,"A Mastropaolo, V Nardone, G Bavota",CrystalBLEU,2024
+Security Analysis of Large Language Models on API Misuse Programming Repair,https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/7135765,"Z Qiao, Y Yu",CrystalBLEU,2024
+On the generalizability of deep learning-based code completion across programming language versions,https://dl.acm.org/doi/abs/10.1145/3643916.3644411,"M Ciniselli, A Martin-Lopez, G Bavota",CrystalBLEU,2024
+FuncEvalGMN: Evaluating Functional Correctness of SQL via Graph Matching Network,https://arxiv.org/abs/2407.14530,"Y Zhan, Y Sun, L Cui",CrystalBLEU,2024
+Instructive Code Retriever: Learn from Large Language Model's Feedback for Code Intelligence Tasks,https://arxiv.org/pdf/2410.11300,"J Lu, H Wang, Z Liu, L Bao",CrystalBLEU,2024
+Codescore-r: An automated robustness metric for assessing the functionalcorrectness of code synthesis,https://arxiv.org/abs/2406.06902,"G Yang, Y Zhou, X Chen, X Zhang",CrystalBLEU,2024
+Leveraging statistical machine translation for code search,https://dl.acm.org/doi/abs/10.1145/3661167.3661233,"H Phan, A Jannesari",CrystalBLEU,2024
+Understanding code changes practically with small-scale language models,https://dl.acm.org/doi/abs/10.1145/3691620.3694999,"P Di, D Wang",CrystalBLEU,2024
+Example-Based Automatic Migration of Continuous Integration Systems,https://arxiv.org/abs/2407.02644,"DE Rzig, F Hassan",CrystalBLEU,2024
+What can Large Language Models Capture about Code Functional Equivalence?,https://arxiv.org/abs/2408.11081,"N Maveli, A Vergari, SB Cohen",CrystalBLEU,2024
+Studying llm performance on closed-and open-source data,https://arxiv.org/abs/2402.15100,"T Ahmed, C Bird, P Devanbu, S Chakraborty",CrystalBLEU,2024
+"Quality In, Quality Out: Investigating Training Data's Role in AI Code Generation",https://arxiv.org/abs/2503.11402,"C Improta, R Tufano, P Liguori, D Cotroneo",CrystalBLEU,2025
+Evaluating Pre-Trained Models for Multi-Language Vulnerability Patching,https://arxiv.org/abs/2501.07339,"ZA Khan, A Garg, Y Guo, Q Tang",CrystalBLEU,2025
+Understanding the Effectiveness of LLMs in Automated Self-Admitted Technical Debt Repayment,https://arxiv.org/abs/2501.09888,"MS Sheikhaei, Y Tian, S Wang, B Xu",CrystalBLEU,2025
+Tfhe-coder: Evaluating llm-agentic fully homomorphic encryption code generation,https://arxiv.org/abs/2503.12217,"M Kumar, J Xue, M Zheng, Q Lou",CrystalBLEU,2025
+A Multi-Dataset Evaluation of Models for Automated Vulnerability Repair,https://link.springer.com/chapter/10.1007/978-3-032-00630-1_5,"ZA Khan, A Garg, Q Tang",CrystalBLEU,2025
+Leveraging Reward Models for Guiding Code Review Comment Generation,https://arxiv.org/abs/2506.04464,"OB Sghaier, R Tufano, G Bavota",CrystalBLEU,2025
+"Automated Self-Admitted Technical Debt Tracking, Classification, and Repayment for Sustainable Software Development",https://qspace.library.queensu.ca/items/036fec8d-3393-4489-9880-e29caf6f01d8,MS Sheikhaei,CrystalBLEU,2025
+Why Personalizing Deep Learning-Based Code Completion Tools Matters,https://arxiv.org/abs/2503.14201,"A Giagnorio, A Martin-Lopez, G Bavota",CrystalBLEU,2025
+CKTyper: Enhancing Type Inference for Java Code Snippets by Leveraging Crowdsourcing Knowledge in Stack Overflow,https://dl.acm.org/doi/abs/10.1145/3715724,"N Zhang, Y Zou",CrystalBLEU,2025
+Towards Database-Free Text-to-SQL Evaluation: A Graph-Based Metric for Functional Correctness,https://aclanthology.org/2025.coling-main.308.pdf,"Y Zhan, L Cui, H Weng, G Wang, Y Tian",CrystalBLEU,2025
+The impact of prompt programming on function-level code generation,https://arxiv.org/pdf/2412.20545,"R Khojah, FG de Oliveira Neto",CrystalBLEU,2025
+Don't complete it! Preventing unhelpful code completion for productive and sustainable neural code completion systems,https://arxiv.org/pdf/2209.05948,"Z Sun, X Du, F Song, S Wang, M Ni, L Li",CrystalBLEU,2025
+Can llms replace human evaluators? an empirical study of llm-as-a-judge in software engineering,https://dl.acm.org/doi/abs/10.1145/3728963,"R Wang, J Guo, C Gao, G Fan, CY Chong",CrystalBLEU,2025
+Codescore: Evaluating code generation by learning code execution,https://dl.acm.org/doi/abs/10.1145/3695991,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CrystalBLEU,2025
+Codeexp: Explanatory code document generation,https://arxiv.org/abs/2211.15395,"H Cui, C Wang, J Huang, JP Inala, T Mytkowicz",CodeBERTScore,2022
+Codebertscore: Evaluating code generation with pretrained models of code,https://arxiv.org/abs/2302.05527,"S Zhou, U Alon, S Agarwal, G Neubig",CodeBERTScore,2023
+Ice-score: Instructing large language models to evaluate code,https://arxiv.org/abs/2304.14317,TY Zhuo,CodeBERTScore,2023
+Codetransocean: A comprehensive multilingual benchmark for code translation,https://arxiv.org/abs/2310.04951,"W Yan, Y Tian, Y Li, Q Chen, W Wang",CodeBERTScore,2023
+Autoparllm: Gnn-guided automatic code parallelization using large language models,https://arxiv.org/abs/2310.04047,"QI Mahmud, A TehraniJamsaz",CodeBERTScore,2023
+Exploring distributional shifts in large language models for code analysis,https://arxiv.org/abs/2303.09128,"S Arakelyan, RJ Das, Y Mao, X Ren",CodeBERTScore,2023
+Codebertscore: Evaluating code generation with pretrained models of code. Deep Learning for Code (DL4C) workshop,https://aclanthology.org/2023.emnlp-main.859.pdf,G Neubig,CodeBERTScore,2023
+ChatGPT as a Java Decompiler,https://aclanthology.org/2023.gem-1.19/,B McDanel,CodeBERTScore,2023
+Generation of robot manipulation plans using generative large language models,https://ieeexplore.ieee.org/abstract/document/10473591/,"JP Töberg, P Cimiano",CodeBERTScore,2023
+Learning performance-improving code edits,https://arxiv.org/abs/2302.07867,"A Madaan, Y Zeng, U Alon",CodeBERTScore,2023
+Codefusion: A pre-trained diffusion model for code generation,https://aclanthology.org/2023.emnlp-main.716.pdf,"M Singh, J Cambronero, S Gulwani, V Le",CodeBERTScore,2023
+Automatic Assessment of Program Code Using CodeBERTScore: a Transformer-Based Approach,https://link.springer.com/chapter/10.1007/978-3-031-91340-2_17,"H Gaur, DK Tayal, A Jain",CodeBERTScore,2024
+Codescore-r: An automated robustness metric for assessing the functionalcorrectness of code synthesis,https://arxiv.org/abs/2406.06902,"G Yang, Y Zhou, X Chen, X Zhang",CodeBERTScore,2024
+On the limitations of embedding based methods for measuring functional correctness for code generation,https://arxiv.org/abs/2405.01580,A Naik,CodeBERTScore,2024
+Codejudge: Evaluating code generation with large language models,https://arxiv.org/abs/2410.02184,T Zhang,CodeBERTScore,2024
+CodeWMBench: An Automated Benchmark for Code Watermarking Evaluation,https://dl.acm.org/doi/abs/10.1145/3674399.3674447,"K Chen, G Chen, W Zhang",CodeBERTScore,2024
+Active code learning: Benchmarking sample-efficient training of code models,https://arxiv.org/pdf/2306.01250,"Q Hu, Y Guo, X Xie, M Cordy, L Ma",CodeBERTScore,2024
+Coderosetta: Pushing the boundaries of unsupervised code translation for parallel programming,https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6edb87876bec4ac2260bffa083cb992-Abstract-Conference.html,"A Tehrani, A Bhattacharjee, L Chen",CodeBERTScore,2024
+"TRAON, Yves Le. Active code learning: Benchmarking sample-efficient training of code models.(2024)",,"Y GUO, X XIE, M CORDY, L MA",CodeBERTScore,2024
+Do large language models generate similar codes from mutated prompts? A case study of Gemini Pro,https://dl.acm.org/doi/abs/10.1145/3663529.3663873,S Mondal,CodeBERTScore,2024
+Leveraging statistical machine translation for code search,https://dl.acm.org/doi/abs/10.1145/3661167.3661233,"H Phan, A Jannesari",CodeBERTScore,2024
+A transformer-based approach for smart invocation of automatic code completion,https://dl.acm.org/doi/abs/10.1145/3664646.3664760,"A de Moor, A van Deursen, M Izadi",CodeBERTScore,2024
+Codescore: Evaluating code generation by learning code execution,https://arxiv.org/pdf/2301.09043,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CodeBERTScore,2025
+CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation,https://arxiv.org/abs/2505.19502,"G Yang, Y Zhou, X Chen, W Zheng, X Hu",CodeBERTScore,2025
+Creating Local LLMs for Test Assertion Generation: A Comparative Study of Knowledge Distillation from CodeT5,https://repository.tudelft.nl/record/uuid:aa8e0097-0c4c-4f95-a764-6a449ee7a62e,,CodeBERTScore,2025
+Technical Challenges in Maintaining Tax Prep Software with Large Language Models,https://arxiv.org/abs/2504.18693,S Gogani-Khiabani,CodeBERTScore,2025
+Multi-perspective Preference Alignment of LLMs for Programming-Community Question Answering,https://aclanthology.org/2025.coling-main.113/,"L He, R Li",CodeBERTScore,2025
+STEP: A structured prompt optimization method for SCADA system tag generation using LLMs,https://www.sciencedirect.com/science/article/pii/S2452414X25000561,"Y Liu, D Lan, Z Pang",CodeBERTScore,2025
+Autoparllm: Gnn-guided context generation for zero-shot code parallelization using llms,https://aclanthology.org/2025.naacl-long.593/,"QI Mahmud, A TehraniJamsaz",CodeBERTScore,2025
+Rubric is all you need: Enhancing llm-based code evaluation with question-specific rubrics,https://arxiv.org/abs/2503.23989,"R Gandhi, A Ramamoorthy",CodeBERTScore,2025
+SIMCODE: A Benchmark for Natural Language to ns-3 Network Simulation Code Generation,https://arxiv.org/abs/2507.11014,"MM Azwad, S Choudhury",CodeBERTScore,2025
+Identifying and Mitigating API Misuse in Large Language Models,https://arxiv.org/abs/2503.22821,"TY Zhuo, J He, J Sun, Z Xing, D Lo, J Grundy",CodeBERTScore,2025
+End-User Customization of Trigger-Action Rules Through Fine-Tuned LLMs,https://link.springer.com/chapter/10.1007/978-3-031-95452-8_2,"G Cimino, V Deufemia",CodeBERTScore,2025
+CodeScore: Evaluating Code Generation by Learning Code Execution. CoRR abs/2301.09043 (2023),https://arxiv.org/pdf/2301.09043,"Y Dong, X Jiang",CodeScore,2023
+Codescore-r: An automated robustness metric for assessing the functionalcorrectness of code synthesis,https://arxiv.org/abs/2406.06902,"G Yang, Y Zhou, X Chen, X Zhang",CodeScore,2024
+Doce: Finding the sweet spot for execution-based code generation,https://arxiv.org/abs/2408.13745,"HS Li, P Fernandes, I Gurevych, AFT Martins",CodeScore,2024
+FuncEvalGMN: Evaluating Functional Correctness of SQL via Graph Matching Network,https://arxiv.org/abs/2407.14530,"Y Zhan, Y Sun, L Cui",CodeScore,2024
+Codescore: Evaluating code generation by learning code execution,https://dl.acm.org/doi/abs/10.1145/3695991,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CodeScore,2025
+Towards Database-Free Text-to-SQL Evaluation: A Graph-Based Metric for Functional Correctness,https://aclanthology.org/2025.coling-main.308/,"Y Zhan, L Cui, H Weng, G Wang, Y Tian",CodeScore,2025
+CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation,https://arxiv.org/abs/2505.19502,"G Yang, Y Zhou, X Chen, W Zheng, X Hu",CodeScore,2025
+"Enhancing Cross-Language Code Translation via Task-Specific Embedding
+  Alignment in Retrieval Augmented Generation",http://arxiv.org/abs/2412.05159v1,"Manish Bhattarai, Minh Vu, Javier E. Santos, Ismael Boureima, Daniel O' Malley",CodeBLEU,2024
+"CodeRosetta: Pushing the Boundaries of Unsupervised Code Translation for
+  Parallel Programming",http://arxiv.org/abs/2410.20527v1,"Ali TehraniJamsaz, Arijit Bhattacharjee, Le Chen, Nesreen K. Ahmed, Amir Yazdanbakhsh, Ali Jannesari",CodeBLEU,2024
+"Beyond Surface Similarity: Evaluating LLM-Based Test Refactorings with
+  Structural and Semantic Awareness",http://arxiv.org/abs/2506.06767v1,"Wendkûuni C. Ouédraogo, Yinghua Li, Xueqi Dang, Xin Zhou, Anil Koyuncu, Jacques Klein, David Lo, Tegawendé F. Bissyandé",CodeBLEU,2025
+"Out of the BLEU: how should we assess quality of the Code Generation
+  models?",http://arxiv.org/abs/2208.03133v2,"Mikhail Evtikhiev, Egor Bogomolov, Yaroslav Sokolov, Timofey Bryksin",CodeBLEU,2022
+"Creating a Dataset for High-Performance Computing Code Translation using
+  LLMs: A Bridge Between OpenMP Fortran and C++",http://arxiv.org/abs/2307.07686v4,"Bin Lei, Caiwen Ding, Le Chen, Pei-Hung Lin, Chunhua Liao",CodeBLEU,2023
+Generating refactored code accurately using reinforcement learning,http://arxiv.org/abs/2412.18035v1,"Indranil Palit, Tushar Sharma",CodeBLEU,2024
+"CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding
+  and Generation",http://arxiv.org/abs/2102.04664v2,"Shuai Lu, Daya Guo, Shuo Ren, Junjie Huang, Alexey Svyatkovskiy, Ambrosio Blanco, Colin Clement, Dawn Drain, Daxin Jiang, Duyu Tang, Ge Li, Lidong Zhou, Linjun Shou, Long Zhou, Michele Tufano, Ming Gong, Ming Zhou, Nan Duan, Neel Sundaresan, Shao Kun Deng, Shengyu Fu, Shujie Liu",CodeBLEU,2021
+"A Novel Approach for Rapid Development Based on ChatGPT and Prompt
+  Engineering",http://arxiv.org/abs/2312.13115v2,"Youjia Li, Jianjun Shi, Zheng Zhang",CodeBLEU,2023
+Measuring Code Efficiency Optimization Capabilities with ACEOB,http://arxiv.org/abs/2408.12960v1,"Yue Pan, Xiuting Shao, Chen Lyu",CodeBLEU,2024
+"Fortran2CPP: Automating Fortran-to-C++ Translation using LLMs via
+  Multi-Turn Dialogue and Dual-Agent Integration",http://arxiv.org/abs/2412.19770v2,"Le Chen, Bin Lei, Dunzhi Zhou, Pei-Hung Lin, Chunhua Liao, Caiwen Ding, Ali Jannesari",CodeBLEU,2024
+Enhancing Code LLM Training with Programmer Attention,http://arxiv.org/abs/2503.14936v2,"Yifan Zhang, Chen Huang, Zachary Karas, Dung Thuy Nguyen, Kevin Leach, Yu Huang",CodeBLEU,2025
+"Enhancing LLM Code Generation with Ensembles: A Similarity-Based
+  Selection Approach",http://arxiv.org/abs/2503.15838v2,"Tarek Mahmud, Bin Duan, Corina Pasareanu, Guowei Yang",CodeBLEU,2025
+"CCCI: Code Completion with Contextual Information for Complex Data
+  Transfer Tasks Using Large Language Models",http://arxiv.org/abs/2503.23231v1,"Hangzhan Jin, Mohammad Hamdaqa",CodeBLEU,2025
+"Empowering AI to Generate Better AI Code: Guided Generation of Deep
+  Learning Projects with LLMs",http://arxiv.org/abs/2504.15080v1,"Chen Xie, Mingsheng Jiao, Xiaodong Gu, Beijun Shen",CodeBLEU,2025
+"AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM
+  Agents",http://arxiv.org/abs/2508.01012v1,"Yiyi Lu, Hoi Ian Au, Junyao Zhang, Jingyu Pan, Yiting Wang, Ang Li, Jianyi Zhang, Yiran Chen",CodeBLEU,2025
+"How Important are Good Method Names in Neural Code Generation? A Model
+  Robustness Perspective",http://arxiv.org/abs/2211.15844v2,"Guang Yang, Yu Zhou, Wenhua Yang, Tao Yue, Xiang Chen, Taolue Chen",CodeBLEU,2022
+Domain Adaptation for Code Model-based Unit Test Case Generation,http://arxiv.org/abs/2308.08033v3,"Jiho Shin, Sepehr Hashtroudi, Hadi Hemmati, Song Wang",CodeBLEU,2023
+"SteloCoder: a Decoder-Only LLM for Multi-Language to Python Code
+  Translation",http://arxiv.org/abs/2310.15539v2,"Jialing Pan, Adrien Sadé, Jin Kim, Eric Soriano, Guillem Sole, Sylvain Flamant",CodeBLEU,2023
+"Multi-LLM Collaboration + Data-Centric Innovation = 2x Better
+  Vulnerability Repair",http://arxiv.org/abs/2401.15459v3,"Xin Zhou, Kisub Kim, Bowen Xu, DongGyun Han, David Lo",CodeBLEU,2024
+"Improving the Learning of Code Review Successive Tasks with Cross-Task
+  Knowledge Distillation",http://arxiv.org/abs/2402.02063v1,"Oussama Ben Sghaier, Houari Sahraoui",CodeBLEU,2024
+RAMBO: Enhancing RAG-based Repository-Level Method Body Completion,http://arxiv.org/abs/2409.15204v3,"Tuan-Dung Bui, Duc-Thieu Luu-Van, Thanh-Phat Nguyen, Thu-Trang Nguyen, Son Nguyen, Hieu Dinh Vo",CodeBLEU,2024
+"Preference-Guided Refactored Tuning for Retrieval Augmented Code
+  Generation",http://arxiv.org/abs/2409.15895v1,"Xinyu Gao, Yun Xiong, Deze Wang, Zhenhan Guan, Zejian Shi, Haofen Wang, Shanshan Li",CodeBLEU,2024
+"Instructive Code Retriever: Learn from Large Language Model's Feedback
+  for Code Intelligence Tasks",http://arxiv.org/abs/2410.11300v1,"Jiawei Lu, Haoye Wang, Zhongxin Liu, Keyu Liang, Lingfeng Bao, Xiaohu Yang",CodeBLEU,2024
+"I Can't Share Code, but I need Translation -- An Empirical Study on Code
+  Translation through Federated LLM",http://arxiv.org/abs/2501.05724v1,"Jahnavi Kumar, Venkata Lakshmana Sasaank Janapati, Mokshith Reddy Tanguturi, Sridhar Chimalakonda",CodeBLEU,2025
+"Improving Deep Assertion Generation via Fine-Tuning Retrieval-Augmented
+  Pre-trained Language Models",http://arxiv.org/abs/2502.16071v1,"Quanjun Zhang, Chunrong Fang, Yi Zheng, Yaxin Zhang, Yuan Zhao, Rubing Huang, Jianyi Zhou, Yun Yang, Tao Zheng, Zhenyu Chen",CodeBLEU,2025
+"Enhancing LLM-based Code Translation in Repository Context via Triple
+  Knowledge-Augmented",http://arxiv.org/abs/2503.18305v2,"Guangsheng Ou, Mingwei Liu, Yuxuan Chen, Xueying Du, Shengbo Wang, Zekai Zhang, Xin Peng, Zibin Zheng",CodeBLEU,2025
+"SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic
+  Reproduction from Research Papers",http://arxiv.org/abs/2504.00255v2,"Yanzheng Xiang, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He",CodeBLEU,2025
+"CodeBC: A More Secure Large Language Model for Smart Contract Code
+  Generation in Blockchain",http://arxiv.org/abs/2504.21043v2,"Lingxiang Wang, Hainan Zhang, Qinnan Zhang, Ziwei Wang, Hongwei Zheng, Jin Dong, Zhiming Zheng",CodeBLEU,2025
+Mutual-Supervised Learning for Sequential-to-Parallel Code Translation,http://arxiv.org/abs/2506.11153v1,"Changxin Ke, Rui Zhang, Shuo Wang, Li Ding, Guangli Li, Yuanbo Wen, Shuoming Zhang, Ruiyuan Xu, Jin Qin, Jiaming Guo, Chenxi Wang, Ling Li, Qi Guo, Yunji Chen",CodeBLEU,2025
+On the Effect of Token Merging on Pre-trained Models for Code,http://arxiv.org/abs/2507.14423v1,"Mootez Saad, Hao Li, Tushar Sharma, Ahmed E. Hassan",CodeBLEU,2025
+"Benchmarking Causal Study to Interpret Large Language Models for Source
+  Code",http://arxiv.org/abs/2308.12415v1,"Daniel Rodriguez-Cardenas, David N. Palacio, Dipin Khati, Henry Burke, Denys Poshyvanyk",CodeBLEU,2023
+MonoCoder: Domain-Specific Code Language Model for HPC Codes and Tasks,http://arxiv.org/abs/2312.13322v3,"Tal Kadosh, Niranjan Hasabnis, Vy A. Vo, Nadav Schneider, Neva Krien, Mihai Capota, Abdul Wasay, Nesreen Ahmed, Ted Willke, Guy Tamir, Yuval Pinter, Timothy Mattson, Gal Oren",CodeBLEU,2023
+"Teaching Code LLMs to Use Autocompletion Tools in Repository-Level Code
+  Generation",http://arxiv.org/abs/2401.06391v3,"Chong Wang, Jian Zhang, Yebo Feng, Tianlin Li, Weisong Sun, Yang Liu, Xin Peng",CodeBLEU,2024
+Enhancing Automated Program Repair with Solution Design,http://arxiv.org/abs/2408.12056v2,"Jiuang Zhao, Donghao Yang, Li Zhang, Xiaoli Lian, Zitian Yang, Fang Liu",CodeBLEU,2024
+PyGen: A Collaborative Human-AI Approach to Python Package Creation,http://arxiv.org/abs/2411.08932v4,"Saikat Barua, Mostafizur Rahman, Md Jafor Sadek, Rafiul Islam, Shehenaz Khaled, Md. Shohrab Hossain",CodeBLEU,2024
+"Understanding the Effectiveness of LLMs in Automated Self-Admitted
+  Technical Debt Repayment",http://arxiv.org/abs/2501.09888v1,"Mohammad Sadegh Sheikhaei, Yuan Tian, Shaowei Wang, Bowen Xu",CrystalBLEU,2025
+"Evaluating and Optimizing the Effectiveness of Neural Machine
+  Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark",http://arxiv.org/abs/2308.04693v1,"Hung Phan, Ali Jannesari",CrystalBLEU,2023
+"On the Limitations of Embedding Based Methods for Measuring Functional
+  Correctness for Code Generation",http://arxiv.org/abs/2405.01580v1,Atharva Naik,CodeBERTScore,2024
+"Aligning LLMs through Multi-perspective User Preference Ranking-based
+  Feedback for Programming Question Answering",http://arxiv.org/abs/2406.00037v1,"Hongyu Yang, Liyang He, Min Hou, Shuanghong Shen, Rui Li, Jiahui Hou, Jianhui Ma, Junda Zhao",CodeBERTScore,2024

@@ -1,0 +1,373 @@
+title,link,authors,metric
+Codexglue: A machine learning benchmark dataset for code understanding and generation,https://arxiv.org/abs/2102.04664,"S Lu, D Guo, S Ren, J Huang, A Svyatkovskiy",CodeBLEU
+Cotext: Multi-task learning with code-text transformer,https://arxiv.org/abs/2105.08645,"L Phan, H Tran, D Le, H Nguyen, J Anibal",CodeBLEU
+Retrieval augmented code generation and summarization,https://arxiv.org/abs/2108.11601,"MR Parvez, WU Ahmad, S Chakraborty, B Ray",CodeBLEU
+Codet5: Identifier-aware unified pre-trained encoder-decoder models for code understanding and generation,https://arxiv.org/abs/2109.00859,"Y Wang, W Wang, S Joty, SCH Hoi",CodeBLEU
+Using document similarity methods to create parallel datasets for code translation,https://arxiv.org/abs/2110.05423,"M Agarwal, K Talamadupula",CodeBLEU
+Evaluating large language models trained on code,https://arxiv.org/abs/2107.03374,"M Chen, J Tworek, Q Yuan",CodeBLEU
+Avatar: A parallel corpus for java-python program translation,https://arxiv.org/abs/2108.11590,"WU Ahmad, S Chakraborty",CodeBLEU
+Unified pre-training for program understanding and generation,https://arxiv.org/abs/2103.06333,"WU Ahmad, S Chakraborty, B Ray",CodeBLEU
+Use of simulation-based medical education for advanced resuscitation of in-hospital cardiac arrest patients with suspected or confirmed COVID-19,https://www.sciencedirect.com/science/article/pii/S0828282X21001616,LA Boivin-Proulx,CodeBLEU
+Syncobert: Syntax-guided multi-modal contrastive pre-training for code representation,https://arxiv.org/abs/2108.04556,"X Wang, Y Wang, F Mi, P Zhou, Y Wan, X Liu",CodeBLEU
+Many Heads but One Brain: Fusion Brain--a Competition and a Single Multimodal Multitask Architecture,https://arxiv.org/abs/2111.10974,"D Bakshandaeva, D Dimitrov",CodeBLEU
+Many Heads but One Brain: an Overview of Fusion Brain Challenge on AI Journey 2021,https://www.academia.edu/download/86462494/2111.10974v1.pdf,"D Dimitrov, M Potanin",CodeBLEU
+Measuring coding challenge competence with apps,https://arxiv.org/abs/2105.09938,"D Hendrycks, S Basart, S Kadavath, M Mazeika",CodeBLEU
+Evaluating code summarization with improved correlation with human assessment,https://ieeexplore.ieee.org/abstract/document/9724827/,"J Shen, Y Zhou, X Chen",CodeBLEU
+Auto-icon: An automated code generation tool for icon designs assisting in ui development,https://dl.acm.org/doi/abs/10.1145/3397481.3450671,"S Feng, S Ma, C Chen",CodeBLEU
+Jointly learning to repair code and generate commit message,https://arxiv.org/abs/2109.12296,"J Bai, L Zhou, S Liu, F Wei, M Zhou",CodeBLEU
+Programming puzzles,https://arxiv.org/abs/2106.05784,"T Schuster, O Polozov, AT Kalai",CodeBLEU
+CrystalBLEU: precisely and efficiently measuring the similarity of code,https://dl.acm.org/doi/abs/10.1145/3551349.3556903,"A Eghbali, M Pradel",CodeBLEU
+Coderl: Mastering code generation through pretrained models and deep reinforcement learning,https://proceedings.neurips.cc/paper_files/paper/2022/hash/8636419dea1aa9fbd25fc4248e702da4-Abstract-Conference.html,"H Le, Y Wang, AD Gotmare",CodeBLEU
+Multilingual code snippets training for program translation,https://ojs.aaai.org/index.php/AAAI/article/view/21434,"M Zhu, K Suresh, CK Reddy",CodeBLEU
+Competition-level code generation with alphacode,https://www.science.org/doi/abs/10.1126/science.abq1158,"Y Li, D Choi, J Chung, N Kushman, J Schrittwieser",CodeBLEU
+ReCode: Robustness evaluation of code generation models,https://arxiv.org/abs/2212.10264,"S Wang, Z Li, H Qian, C Yang, Z Wang",CodeBLEU
+Babeltower: Learning to auto-parallelized program translation,https://proceedings.mlr.press/v162/wen22b.html,Y Wen,CodeBLEU
+Code generation using machine learning: A systematic review,https://ieeexplore.ieee.org/abstract/document/9849664/,"E Dehaerne, B Dey, S De Gendt",CodeBLEU
+Pangu-coder: Program synthesis with function-level language modeling,https://arxiv.org/abs/2207.11280,"F Christopoulou, G Lampouras, M Gritta",CodeBLEU
+Large language models meet NL2Code: A survey,https://arxiv.org/abs/2212.09420,"D Zan, B Chen, F Zhang, B Guan",CodeBLEU
+Generating Python Code from Docstrings using OpenNMT,https://norma.ncirl.ie/6094/,,CodeBLEU
+Codepad: Sequence-based code generation with pushdown automaton,https://arxiv.org/abs/2211.00818,"Y Dong, X Jiang, G Li, Z Jin",CodeBLEU
+No more fine-tuning? an experimental evaluation of prompt tuning in code intelligence,https://dl.acm.org/doi/abs/10.1145/3540250.3549113,"C Wang, Y Yang, C Gao, Y Peng, H Zhang",CodeBLEU
+An extensive study on pre-trained models for program understanding and generation,https://dl.acm.org/doi/abs/10.1145/3533767.3534390,"Z Zeng, H Tan, J Li, Y Zhang",CodeBLEU
+Boosting code summarization by embedding code structures,https://aclanthology.org/2022.coling-1.521/,"J Hahn, YS Han",CodeBLEU
+Human perceiving behavior modeling in evaluation of code generation models,https://aclanthology.org/2022.gem-1.24/,SV Kovalchuk,CodeBLEU
+Institute of Science and Technology,,,CodeBLEU
+Decision-to-delivery interval after implementation of a specific protocol for Emergency Cesarean Delivery because of Category III fetal heart rate tracings,https://www.sciencedirect.com/science/article/pii/S1701216322006132,,CodeBLEU
+Autoupdate: Automatically recommend code updates for android apps,https://www.researchgate.net/profile/Patanamon-Thongtanunam-2/publication/363585009_AutoUpdate_Automatically_Recommend_Code_Updates_for_Android_Apps/links/6500577df8931a4e29baf16f/AutoUpdate-Automatically-Recommend-Code-Updates-for-Android-Apps.pdf,"Y Liu, C Tantithamthavorn, Y Liu",CodeBLEU
+Execution-based evaluation for data science code generation models,https://arxiv.org/abs/2211.09374,"J Huang, C Wang, J Zhang, C Yan, H Cui",CodeBLEU
+Codegeex: A pre-trained model for code generation with multilingual benchmarking on humaneval-x,https://dl.acm.org/doi/abs/10.1145/3580305.3599790,"Q Zheng, X Xia, X Zou, Y Dong, S Wang",CodeBLEU
+Codebertscore: Evaluating code generation with pretrained models of code,https://arxiv.org/abs/2302.05527,"S Zhou, U Alon, S Agarwal, G Neubig",CodeBLEU
+Codetransocean: A comprehensive multilingual benchmark for code translation,https://arxiv.org/abs/2310.04951,"W Yan, Y Tian, Y Li, Q Chen, W Wang",CodeBLEU
+CODEP: grammatical seq2seq model for general-purpose code generation,https://dl.acm.org/doi/abs/10.1145/3597926.3598048,"Y Dong, G Li, Z Jin",CodeBLEU
+Impact of code language models on automated program repair,https://ieeexplore.ieee.org/abstract/document/10172517/,"N Jiang, T Lutellier, L Tan",CodeBLEU
+RTCoder: An approach based on retrieve-template for automatic code generation,https://ieeexplore.ieee.org/abstract/document/10475966/,"S Chen, G Fan, Z Feng",CodeBLEU
+Multilingual code co-evolution using large language models,https://dl.acm.org/doi/abs/10.1145/3611643.3616350,"J Zhang, P Nie, JJ Li, M Gligoric",CodeBLEU
+On the robustness of code generation techniques: An empirical study on github copilot,https://ieeexplore.ieee.org/abstract/document/10172792/,"A Mastropaolo, L Pascarella",CodeBLEU
+Codeattack: Code-based adversarial attacks for pre-trained programming language models,https://ojs.aaai.org/index.php/AAAI/article/view/26739,"A Jha, CK Reddy",CodeBLEU
+"A survey of large language models for code: Evolution, benchmarking, and future trends",https://arxiv.org/abs/2311.10372,"Z Zheng, Y Wang, J Zhang",CodeBLEU
+Natural language to code: How far are we?,https://dl.acm.org/doi/abs/10.1145/3611643.3616323,"S Wang, M Geng, B Lin, Z Sun, M Wen, Y Liu",CodeBLEU
+Codet5+: Open code large language models for code understanding and generation,https://arxiv.org/abs/2305.07922,"Y Wang, H Le, AD Gotmare, NDQ Bui, J Li",CodeBLEU
+JaCoText: a pretrained model for Java code-text generation,https://arxiv.org/abs/2303.12869,"JL Espejel, MSY Alassan",CodeBLEU
+Codebpe: Investigating subtokenization options for large language model pretraining on source code,https://arxiv.org/abs/2308.00683,"N Chirkova, S Troshin",CodeBLEU
+A review on code generation with llms: Application and evaluation,https://ieeexplore.ieee.org/abstract/document/10403378/,,CodeBLEU
+Skcoder: A sketch-based approach for automatic code generation,https://ieeexplore.ieee.org/abstract/document/10172719/,"J Li, Y Li, G Li, Z Jin, Y Hao, X Hu",CodeBLEU
+Exploring data augmentation for code generation tasks,https://arxiv.org/abs/2302.03499,"P Chen, G Lampouras",CodeBLEU
+Enhancing large language models for secure code generation: A dataset-driven study on vulnerability mitigation,https://arxiv.org/abs/2310.16263,"J Wang, L Cao, A Jatowt",CodeBLEU
+A Survey on Code Representation,https://www.worldscientific.com/doi/abs/10.1142/S2811032323500017,"PD Nagy, H Davoudi",CodeBLEU
+Benchmarks and metrics for evaluations of code generation: A critical review,https://ieeexplore.ieee.org/abstract/document/10685214/,H Zhu,CodeBLEU
+A survey on evaluating large language models in code generation tasks,https://arxiv.org/abs/2408.16498,"H Jia, Z Zeng, X Wang",CodeBLEU
+Rethinking AI code generation: a one-shot correction approach based on user feedback,https://link.springer.com/article/10.1007/s10515-024-00451-y,"KT Le, A Andrzejak",CodeBLEU
+Codeinsight: A curated dataset of practical coding solutions from stack overflow,https://arxiv.org/abs/2409.16819,"N Beau, B Crabbé",CodeBLEU
+Coderosetta: Pushing the boundaries of unsupervised code translation for parallel programming,https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6edb87876bec4ac2260bffa083cb992-Abstract-Conference.html,"A Tehrani, A Bhattacharjee, L Chen",CodeBLEU
+On the limitations of embedding based methods for measuring functional correctness for code generation,https://arxiv.org/abs/2405.01580,A Naik,CodeBLEU
+LecPrompt: A Prompt-based Approach for Logical Error Correction with CodeBERT,https://arxiv.org/abs/2410.08241,VS Sheng,CodeBLEU
+Complexcodeeval: A benchmark for evaluating large code models on more complex code,https://dl.acm.org/doi/abs/10.1145/3691620.3695552,"C Gao, CY Chong, C Wang",CodeBLEU
+Using large language models to document code: A first quantitative and qualitative assessment,https://arxiv.org/abs/2408.14007,"L Xavier, MT Valente",CodeBLEU
+Codejudge: Evaluating code generation with large language models,https://arxiv.org/abs/2410.02184,"W Tong, T Zhang",CodeBLEU
+Comparative Analysis of Transformer and CodeBERT for Program Translation,https://nepjol.info/index.php/nccsrj/article/view/72334,,CodeBLEU
+A preliminary study of multilingual code language models for code generation task using translated benchmarks,https://dl.acm.org/doi/abs/10.1145/3691621.3694939,"R Dandamudi, G Rodríguez-Pérez",CodeBLEU
+Codes: Natural language to code repository via multi-layer sketch,https://arxiv.org/abs/2403.16443,"D Zan, D Chen",CodeBLEU
+TaskEval: Assessing Difficulty of Code Generation Tasks for Large Language Models,https://arxiv.org/abs/2407.21227,"F Tambon, A Nikanjam, C Zid, F Khomh",CodeBLEU
+Codev-Bench: How Do LLMs Understand Developer-Centric Code Completion?,https://arxiv.org/abs/2410.01353,"Z Pan, R Cao, Y Ma, B Li, F Huang",CodeBLEU
+How important are good method names in neural code generation? a model robustness perspective,https://dl.acm.org/doi/abs/10.1145/3630010,"G Yang, Y Zhou, W Yang, T Yue, X Chen",CodeBLEU
+Enhancing Code Generation Through Retrieval of Cross-Lingual Semantic Graphs,https://ieeexplore.ieee.org/abstract/document/10967315/,,CodeBLEU
+Python code generation from a natural language description,https://theses.hal.science/tel-05154880/,N Beau,CodeBLEU
+"Large Language Models for Code Generation: A Comprehensive Survey of Challenges, Techniques, Evaluation, and Applications",https://arxiv.org/abs/2503.01245,,CodeBLEU
+Codescore: Evaluating code generation by learning code execution,https://dl.acm.org/doi/abs/10.1145/3695991,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CodeBLEU
+aiXcoder-7B: A Lightweight and Effective Large Language Model for Code Processing,https://ieeexplore.ieee.org/abstract/document/11121702/,"J Li, H Zong, H Liu, H Zhu",CodeBLEU
+Bridging Programming Languages: A Comprehensive Survey of Code Translation Techniques,https://pijet.org/papers/volume-2%20issue-2/Final%20Revised%20Paper_Pijet-08.pdf,,CodeBLEU
+Webcode2m: A real-world dataset for code generation from webpage designs,https://dl.acm.org/doi/abs/10.1145/3696410.3714889,"Y Gui, Z Li, Y Wan, Y Shi",CodeBLEU
+Deep Learning Based Optimization of Large Language Models for Code Generation,https://www.preprints.org/frontend/manuscript/354413751348bfd66bfb66eb4c3edd73/download_pub,Y Yao,CodeBLEU
+CodeBC: A More Secure Large Language Model for Smart Contract Code Generation in Blockchain,https://arxiv.org/abs/2504.21043,L Wang,CodeBLEU
+Teaching code llms to use autocompletion tools in repository-level code generation,https://dl.acm.org/doi/abs/10.1145/3714462,"C Wang, J Zhang, Y Feng, T Li, W Sun, Y Liu",CodeBLEU
+Evaluating Pre-Trained Models for Multi-Language Vulnerability Patching,https://arxiv.org/abs/2501.07339,"ZA Khan, A Garg, Y Guo, Q Tang",CodeBLEU
+A Code Comprehension Benchmark for Large Language Models for Code,https://arxiv.org/abs/2507.10641,"S Chaudhary, G Ramakrishnan",CodeBLEU
+Benchmarking Large Language Models for Code Generation,https://ieeexplore.ieee.org/abstract/document/11144864/,,CodeBLEU
+"Using Large Language Models for Aerospace Code Generation: Methods, Benchmarks, and Potential Values",https://www.mdpi.com/2226-4310/12/6/498,,CodeBLEU
+Large language model-aware in-context learning for code generation,https://dl.acm.org/doi/abs/10.1145/3715908,"J Li, C Tao, J Li♂, G Li, Z Jin, H Zhang",CodeBLEU
+Exploration and Improvement of Capabilities of LLMs in Code Refinement Task.,https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=16737288&AN=187182592&h=IPfZc6KvNKZJ3NCMqW4Ns10TSEvfzTzRCx%2FQsgo2lInyv%2BydvbvpFRhRr%2FPnaFVbOAzTVdFPzvDvOyBNXaALbw%3D%3D&crl=c,T He,CodeBLEU
+RETROcode: Leveraging a Code Database for Improved Natural Language to Code Generation,https://arxiv.org/abs/2504.05759,"N Beau, B Crabbé",CodeBLEU
+Towards a platform for benchmarking Large Language Models,https://simaocunha71.github.io/assets/docs/msc-thesis/dissertation.pdf,SPS Cunha,CodeBLEU
+Beyond Surface Similarity: Evaluating LLM-Based Test Refactorings with Structural and Semantic Awareness,https://arxiv.org/abs/2506.06767,"WC Ouédraogo, Y Li, X Dang, X Zhou",CodeBLEU
+Cloud software code generation via knowledge graphs and multi-modal learning,https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-025-00758-5,"F Zhang, Q Chen",CodeBLEU
+Previously on... Automating Code Review,https://arxiv.org/abs/2508.18003,"R Heumüller, F Ortmeier",CodeBLEU
+CodeGuard: A Generalized and Stealthy Backdoor Watermarking for Generative Code Models,https://arxiv.org/abs/2506.20926,J Zhang,CodeBLEU
+CrystalBLEU: precisely and efficiently measuring the similarity of code,https://dl.acm.org/doi/abs/10.1145/3551349.3556903,"A Eghbali, M Pradel",CrystalBLEU
+ICSE-Companion 2022,https://www.computer.org/csdl/proceedings-article/icse-companion/2022/959800z005/1EaPgz8KZbO,F Thung,CrystalBLEU
+CrystalBLEU: Precisely and Efficiently Measuring the Similarity of Code. 2022 IEEE,,,CrystalBLEU
+BLEU it All Away! Refocusing SE ML on the Homo Sapiens,,L Applis,CrystalBLEU
+Codebertscore: Evaluating code generation with pretrained models of code,https://arxiv.org/abs/2302.05527,"S Zhou, U Alon, S Agarwal, G Neubig",CrystalBLEU
+Evaluating and optimizing the effectiveness of neural machine translation in supporting code retrieval models: A study on the cat benchmark,https://dl.acm.org/doi/abs/10.1145/3583780.3614869,"H Phan, A Jannesari",CrystalBLEU
+Efficient avoidance of vulnerabilities in auto-completed smart contract code using vulnerability-constrained decoding,https://ieeexplore.ieee.org/abstract/document/10301240/,"A Storhaug, J Li, T Hu",CrystalBLEU
+CodeEditor: Learning to Edit Source Code with Pre-trained Models,https://dl.acm.org/doi/abs/10.1145/3597207,"J Li, G Li, Z Li, Z Jin, X Hu, K Zhang",CrystalBLEU
+Towards automatically addressing self-admitted technical debt: How far are we?,https://ieeexplore.ieee.org/abstract/document/10298547/,"A Mastropaolo, M Di Penta",CrystalBLEU
+Automatikz: Text-guided synthesis of scientific vector graphics with tikz,https://arxiv.org/abs/2310.00367,"J Belouadi, A Lauscher, S Eger",CrystalBLEU
+Tests4J benchmark: execution-based evaluation of context-aware language models for test case generation,https://elib.uni-stuttgart.de/bitstreams/ac90426a-b71f-4010-938c-4c332b4b44ec/download,V Knappich,CrystalBLEU
+Two birds with one stone: Boosting code generation and code search via a generative adversarial network,https://dl.acm.org/doi/abs/10.1145/3622815,"S Wang, B Lin, Z Sun, M Wen, Y Liu, Y Lei",CrystalBLEU
+A syntax-guided multi-task learning approach for Turducken-style code generation,https://link.springer.com/article/10.1007/s10664-023-10372-1,"G Yang, Y Zhou, X Chen, X Zhang",CrystalBLEU
+An empirical study of parameter-efficient fine-tuning methods for pre-trained code models,https://ieeexplore.ieee.org/abstract/document/10298587/,X Peng,CrystalBLEU
+Codetransocean: A comprehensive multilingual benchmark for code translation,https://arxiv.org/abs/2310.04951,"W Yan, Y Tian, Y Li, Q Chen, W Wang",CrystalBLEU
+Round-Trip Translation: A New Path for Automatic Program Repair using Large Language Models,https://www.diva-portal.org/smash/record.jsf?pid=diva2:1813716,F Vallecillos Ruiz,CrystalBLEU
+Applicability of GPT models to high-performance compute languages,https://www.diva-portal.org/smash/record.jsf?pid=diva2:1792580,,CrystalBLEU
+Ice-score: Instructing large language models to evaluate code,https://arxiv.org/abs/2304.14317,TY Zhuo,CrystalBLEU
+Octopack: Instruction tuning code large language models,https://openreview.net/forum?id=CjrPqvvUXL,"N Muennighoff, Q Liu, A Zebaze, Q Zheng",CrystalBLEU
+On the evaluation of neural code translation: Taxonomy and benchmark,https://ieeexplore.ieee.org/abstract/document/10298408/,X Gu,CrystalBLEU
+Test-case-driven programming understanding in large language models for better code generation,https://arxiv.org/abs/2309.16120,"Z Tian, J Chen, X Zhang",CrystalBLEU
+Pitfalls in language models for code intelligence: A taxonomy and survey,https://dl.acm.org/doi/abs/10.1145/3748647,"X She, Y Liu, Y Zhao, Y He, L Li",CrystalBLEU
+Towards tracing code provenance with code watermarking,https://arxiv.org/abs/2305.12461,L Xiang,CrystalBLEU
+By Dorinda Daniel,https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=1094&context=collegian_1980-1989,,CrystalBLEU
+On the limitations of embedding based methods for measuring functional correctness for code generation,https://arxiv.org/abs/2405.01580,A Naik,CrystalBLEU
+How the training procedure impacts the performance of deep learning-based vulnerability patching,https://dl.acm.org/doi/abs/10.1145/3661167.3661200,"A Mastropaolo, V Nardone, G Bavota",CrystalBLEU
+Security Analysis of Large Language Models on API Misuse Programming Repair,https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/7135765,"Z Qiao, Y Yu",CrystalBLEU
+On the generalizability of deep learning-based code completion across programming language versions,https://dl.acm.org/doi/abs/10.1145/3643916.3644411,"M Ciniselli, A Martin-Lopez, G Bavota",CrystalBLEU
+FuncEvalGMN: Evaluating Functional Correctness of SQL via Graph Matching Network,https://arxiv.org/abs/2407.14530,"Y Zhan, Y Sun, L Cui",CrystalBLEU
+Instructive Code Retriever: Learn from Large Language Model's Feedback for Code Intelligence Tasks,https://dl.acm.org/doi/abs/10.1145/3691620.3694997,"J Lu, H Wang, Z Liu, L Bao",CrystalBLEU
+MineCPP: Mining Bug Fix Pairs and Their Structures,https://dl.acm.org/doi/abs/10.1145/3663529.3663797,"SK Avula, S Mondal",CrystalBLEU
+Codescore-r: An automated robustness metric for assessing the functionalcorrectness of code synthesis,https://arxiv.org/abs/2406.06902,"G Yang, Y Zhou, X Chen, X Zhang",CrystalBLEU
+Leveraging statistical machine translation for code search,https://dl.acm.org/doi/abs/10.1145/3661167.3661233,"H Phan, A Jannesari",CrystalBLEU
+Understanding code changes practically with small-scale language models,https://dl.acm.org/doi/abs/10.1145/3691620.3694999,"P Di, D Wang",CrystalBLEU
+Action2Code: Transforming Video Demonstrations into Sequential Robotic Instructions,https://ieeexplore.ieee.org/abstract/document/10597493/,A Upadhyay,CrystalBLEU
+Example-Based Automatic Migration of Continuous Integration Systems,https://arxiv.org/abs/2407.02644,"DE Rzig, F Hassan",CrystalBLEU
+Active Learning for Low-Resource Project-Specific Code Summarization,https://link.springer.com/chapter/10.1007/978-981-97-5489-2_5,,CrystalBLEU
+Deep Learning-based Code Completion: On the Impact on Performance of Contextual Information,https://ieeexplore.ieee.org/abstract/document/10795105/,"M Ciniselli, L Pascarella",CrystalBLEU
+What can Large Language Models Capture about Code Functional Equivalence?,https://arxiv.org/abs/2408.11081,"N Maveli, A Vergari, SB Cohen",CrystalBLEU
+Rewriting the code: A simple method for large language model augmented code search,https://arxiv.org/abs/2401.04514,"H Li, X Zhou",CrystalBLEU
+Studying llm performance on closed-and open-source data,https://arxiv.org/abs/2402.15100,"T Ahmed, C Bird, P Devanbu, S Chakraborty",CrystalBLEU
+Feynman: Knowledge-Infused Diagramming Agent for Scaling Visual Reasoning Data,https://openreview.net/forum?id=jNmsuEE4Gf,"Z Wen, S Estep, J Sunshine",CrystalBLEU
+Codesift: An llm-based reference-less framework for automatic code validation,https://ieeexplore.ieee.org/abstract/document/10643933/,"P Aggarwal, O Chatterjee, T Dai",CrystalBLEU
+Bridging Eras: Transforming Fortran legacies into Python with the power of large language models,https://ieeexplore.ieee.org/abstract/document/10586058/,"R Pietrini, M Paolanti, E Frontoni",CrystalBLEU
+"Quality In, Quality Out: Investigating Training Data's Role in AI Code Generation",https://arxiv.org/abs/2503.11402,"C Improta, R Tufano, P Liguori, D Cotroneo",CrystalBLEU
+Evaluating Pre-Trained Models for Multi-Language Vulnerability Patching,https://arxiv.org/abs/2501.07339,"ZA Khan, A Garg, Y Guo, Q Tang",CrystalBLEU
+Bridging Programming Languages: A Comprehensive Survey of Code Translation Techniques,https://pijet.org/papers/volume-2%20issue-2/Final%20Revised%20Paper_Pijet-08.pdf,,CrystalBLEU
+Understanding the Effectiveness of LLMs in Automated Self-Admitted Technical Debt Repayment,https://arxiv.org/abs/2501.09888,"MS Sheikhaei, Y Tian, S Wang, B Xu",CrystalBLEU
+Tfhe-coder: Evaluating llm-agentic fully homomorphic encryption code generation,https://arxiv.org/abs/2503.12217,"M Kumar, J Xue, M Zheng, Q Lou",CrystalBLEU
+A Multi-Dataset Evaluation of Models for Automated Vulnerability Repair,https://link.springer.com/chapter/10.1007/978-3-032-00630-1_5,"ZA Khan, A Garg, Q Tang",CrystalBLEU
+SolBench: A Dataset and Benchmark for Evaluating Functional Correctness in Solidity Code Completion and Repair,https://arxiv.org/abs/2503.01098,"Z Chen, X Luo",CrystalBLEU
+CIgrate: Automating CI Service Migration with Large Language Models,https://arxiv.org/abs/2507.20402,TA Ghaleb,CrystalBLEU
+Assessing and analyzing the correctness of github copilot's code suggestions,https://dl.acm.org/doi/abs/10.1145/3715108,R Mo,CrystalBLEU
+Leveraging Reward Models for Guiding Code Review Comment Generation,https://arxiv.org/abs/2506.04464,"OB Sghaier, R Tufano, G Bavota",CrystalBLEU
+"Automated Self-Admitted Technical Debt Tracking, Classification, and Repayment for Sustainable Software Development",https://qspace.library.queensu.ca/items/036fec8d-3393-4489-9880-e29caf6f01d8,MS Sheikhaei,CrystalBLEU
+Why Personalizing Deep Learning-Based Code Completion Tools Matters,https://arxiv.org/abs/2503.14201,"A Giagnorio, A Martin-Lopez, G Bavota",CrystalBLEU
+CKTyper: Enhancing Type Inference for Java Code Snippets by Leveraging Crowdsourcing Knowledge in Stack Overflow,https://dl.acm.org/doi/abs/10.1145/3715724,"N Zhang, Y Zou, J Wang",CrystalBLEU
+Towards Database-Free Text-to-SQL Evaluation: A Graph-Based Metric for Functional Correctness,https://aclanthology.org/2025.coling-main.308/,"Y Zhan, L Cui, H Weng, G Wang, Y Tian",CrystalBLEU
+The impact of prompt programming on function-level code generation,https://ieeexplore.ieee.org/abstract/document/11077752/,"R Khojah, FG de Oliveira Neto",CrystalBLEU
+Don't complete it! Preventing unhelpful code completion for productive and sustainable neural code completion systems,https://dl.acm.org/doi/abs/10.1145/3688831,"Z Sun, X Du, F Song, S Wang, M Ni, L Li",CrystalBLEU
+Can llms replace human evaluators? an empirical study of llm-as-a-judge in software engineering,https://dl.acm.org/doi/abs/10.1145/3728963,"R Wang, J Guo, C Gao, G Fan, CY Chong",CrystalBLEU
+Codescore: Evaluating code generation by learning code execution,https://dl.acm.org/doi/abs/10.1145/3695991,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CrystalBLEU
+LLM Code Customization with Visual Results: A Benchmark on TikZ,https://arxiv.org/abs/2505.04670,"C Reux, M Acher, DE Khelladi, O Barais",CrystalBLEU
+Codeexp: Explanatory code document generation,https://arxiv.org/abs/2211.15395,"H Cui, C Wang, J Huang, JP Inala, T Mytkowicz",CodeBERTScore
+Codebertscore: Evaluating code generation with pretrained models of code,https://arxiv.org/abs/2302.05527,"S Zhou, U Alon, S Agarwal, G Neubig",CodeBERTScore
+Ice-score: Instructing large language models to evaluate code,https://arxiv.org/abs/2304.14317,TY Zhuo,CodeBERTScore
+Codetransocean: A comprehensive multilingual benchmark for code translation,https://arxiv.org/abs/2310.04951,"W Yan, Y Tian, Y Li, Q Chen, W Wang",CodeBERTScore
+Adversarial attacks on code models with discriminative graph patterns,https://arxiv.org/abs/2308.11161,"TD Nguyen, Y Zhou, XBD Le, P Thongtanunam",CodeBERTScore
+Applicability of GPT models to high-performance compute languages,https://www.diva-portal.org/smash/record.jsf?pid=diva2:1792580,,CodeBERTScore
+"A survey of large language models for code: Evolution, benchmarking, and future trends",https://arxiv.org/abs/2311.10372,"Z Zheng, Y Wang, J Zhang",CodeBERTScore
+TUM Data Innovation Lab Munich Data Science Institute (MDSI) Technical University of Munich & msg-life central europe gmbh,https://www.mdsi.tum.de/fileadmin/w00cet/di-lab/pdf/msg-life_FinalReport_SS2023.pdf,M Saleh,CodeBERTScore
+On the impact of language selection for training and evaluating programming language models,https://ieeexplore.ieee.org/abstract/document/10356706/,"J Katzy, M Izadi, A Van Deursen",CodeBERTScore
+Autoparllm: Gnn-guided automatic code parallelization using large language models,https://arxiv.org/abs/2310.04047,"QI Mahmud, A TehraniJamsaz",CodeBERTScore
+Exploring distributional shifts in large language models for code analysis,https://arxiv.org/abs/2303.09128,"S Arakelyan, RJ Das, Y Mao, X Ren",CodeBERTScore
+Codebertscore: Evaluating code generation with pretrained models of code. Deep Learning for Code (DL4C) workshop,,G Neubig,CodeBERTScore
+"Codebertscore: Evaluating code generation with pretrained models of code. CoRR, abs/2302.05527, 2023. doi: 10.48550",,G Neubig,CodeBERTScore
+ChatGPT as a Java Decompiler,https://aclanthology.org/2023.gem-1.19/,B McDanel,CodeBERTScore
+Generation of robot manipulation plans using generative large language models,https://ieeexplore.ieee.org/abstract/document/10473591/,"JP Töberg, P Cimiano",CodeBERTScore
+Current trends in the search for similarities in source codes with an application in the field of plagiarism and clone detection,https://ieeexplore.ieee.org/abstract/document/10143064/,"P Hrkút, M Ďuračík",CodeBERTScore
+Learning performance-improving code edits,https://arxiv.org/abs/2302.07867,"A Madaan, Y Zeng, U Alon",CodeBERTScore
+Codefusion: A pre-trained diffusion model for code generation,https://aclanthology.org/2023.emnlp-main.716/,"M Singh, J Cambronero, S Gulwani, V Le",CodeBERTScore
+False alarm reduction method for weakness static analysis using bert model,https://www.mdpi.com/2076-3417/13/6/3502,Y Son,CodeBERTScore
+Multilingual Code Retrieval Without Paired Data: New Datasets and Benchmarks,https://openreview.net/forum?id=jwzm44fsJ8,"J Monteiro, T Scholak, V Mehta, D Vazquez, C Pal",CodeBERTScore
+Automatic Assessment of Program Code Using CodeBERTScore: a Transformer-Based Approach,https://link.springer.com/chapter/10.1007/978-3-031-91340-2_17,"H Gaur, DK Tayal, A Jain",CodeBERTScore
+Codescore-r: An automated robustness metric for assessing the functionalcorrectness of code synthesis,https://arxiv.org/abs/2406.06902,"G Yang, Y Zhou, X Chen, X Zhang",CodeBERTScore
+Vulcobert: A codebert-based system for source code vulnerability detection,https://dl.acm.org/doi/abs/10.1145/3665348.3665391,H Shao,CodeBERTScore
+On the limitations of embedding based methods for measuring functional correctness for code generation,https://arxiv.org/abs/2405.01580,A Naik,CodeBERTScore
+VulD-CodeBERT: CodeBERT-Based Vulnerability Detection Model for C/C++ Code,https://ieeexplore.ieee.org/abstract/document/10653337/,,CodeBERTScore
+Cluster Based Classification of Question Independent C Codes,https://link.springer.com/chapter/10.1007/978-3-031-73617-9_24,"A Vijjapu, RM Balakrishnan",CodeBERTScore
+CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells,https://arxiv.org/abs/2409.19801,"A Naik, M Alenius, D Fried, C Rose",CodeBERTScore
+Codejudge: Evaluating code generation with large language models,https://arxiv.org/abs/2410.02184,"W Tong, T Zhang",CodeBERTScore
+CodeWMBench: An Automated Benchmark for Code Watermarking Evaluation,https://dl.acm.org/doi/abs/10.1145/3674399.3674447,"K Chen, G Chen, W Zhang",CodeBERTScore
+Active code learning: Benchmarking sample-efficient training of code models,https://ieeexplore.ieee.org/abstract/document/10471610/,"Q Hu, Y Guo, X Xie, M Cordy, L Ma",CodeBERTScore
+Coderosetta: Pushing the boundaries of unsupervised code translation for parallel programming,https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6edb87876bec4ac2260bffa083cb992-Abstract-Conference.html,"A Tehrani, A Bhattacharjee, L Chen",CodeBERTScore
+Simllm: Calculating semantic similarity in code summaries using a large language model-based approach,https://dl.acm.org/doi/abs/10.1145/3660769,"X Jin, Z Lin",CodeBERTScore
+CRScore: Grounding the Evaluation of Code Review Comments in Code Claims and Smells,https://atharva-naik.github.io/CodeReviewEval.pdf,C Rosé,CodeBERTScore
+"TRAON, Yves Le. Active code learning: Benchmarking sample-efficient training of code models.(2024)",https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?params=/context/sis_research/article/9698/&path_info=ActiveCodeLearning_av.pdf,"Y GUO, X XIE, M CORDY, L MA",CodeBERTScore
+Better Python Programming for all: With the focus on Maintainability,https://arxiv.org/abs/2408.09134,"K Shivashankar, A Martini",CodeBERTScore
+Do large language models generate similar codes from mutated prompts? A case study of Gemini Pro,https://dl.acm.org/doi/abs/10.1145/3663529.3663873,S Mondal,CodeBERTScore
+Leveraging statistical machine translation for code search,https://dl.acm.org/doi/abs/10.1145/3661167.3661233,"H Phan, A Jannesari",CodeBERTScore
+A transformer-based approach for smart invocation of automatic code completion,https://dl.acm.org/doi/abs/10.1145/3664646.3664760,"A de Moor, A van Deursen, M Izadi",CodeBERTScore
+DL-VulBERT: A Deep Learning Classifier for the Identification of Software Vulnerabilities,https://ieeexplore.ieee.org/abstract/document/10724230/,"DS Tomar, R Shekhar",CodeBERTScore
+Codescore: Evaluating code generation by learning code execution,https://dl.acm.org/doi/abs/10.1145/3695991,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CodeBERTScore
+Exploring Contextualized Embeddings for C++ Code Search and Algorithms Classification,https://ieeexplore.ieee.org/abstract/document/10971156/,,CodeBERTScore
+An Empirical Study of Code Simplification Methods in Code Intelligence Tasks,https://dl.acm.org/doi/abs/10.1145/3720540,"Z Shen, Y Li, J Ge, X Chen, L Huang",CodeBERTScore
+CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation,https://arxiv.org/abs/2505.19502,"G Yang, Y Zhou, X Chen, W Zheng, X Hu",CodeBERTScore
+How to Select Pre-Trained Code Models for Reuse? A Learning Perspective,https://ieeexplore.ieee.org/abstract/document/10992331/,"Z Bi, Y Wan, Z Chu",CodeBERTScore
+CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification,https://ojs.aaai.org/index.php/AAAI/article/view/34689,,CodeBERTScore
+IndicEval-XL: Bridging Linguistic Diversity in Code Generation Across Indic Languages,https://arxiv.org/abs/2502.19067,,CodeBERTScore
+CodeVisionary: An Agent-based Framework for Evaluating Large Language Models in Code Generation,https://arxiv.org/abs/2504.13472,"X Wang, C Peng, R Hu, C Gao",CodeBERTScore
+Fine-tuning a large language model for automated code compliance of building regulations,https://www.sciencedirect.com/science/article/pii/S1474034625005695,"JWL Shi, JKW Yeoh",CodeBERTScore
+Creating Local LLMs for Test Assertion Generation: A Comparative Study of Knowledge Distillation from CodeT5,https://repository.tudelft.nl/record/uuid:aa8e0097-0c4c-4f95-a764-6a449ee7a62e,,CodeBERTScore
+Technical Challenges in Maintaining Tax Prep Software with Large Language Models,https://arxiv.org/abs/2504.18693,S Gogani-Khiabani,CodeBERTScore
+Multi-perspective Preference Alignment of LLMs for Programming-Community Question Answering,https://aclanthology.org/2025.coling-main.113/,"L He, R Li",CodeBERTScore
+STEP: A structured prompt optimization method for SCADA system tag generation using LLMs,https://www.sciencedirect.com/science/article/pii/S2452414X25000561,"Y Liu, D Lan, Z Pang",CodeBERTScore
+Autoparllm: Gnn-guided context generation for zero-shot code parallelization using llms,https://aclanthology.org/2025.naacl-long.593/,"QI Mahmud, A TehraniJamsaz",CodeBERTScore
+Structure-Enhanced Prompt Learning for Graph-Based Code Vulnerability Detection,https://www.mdpi.com/2076-3417/15/11/6128,C Ye,CodeBERTScore
+Rubric is all you need: Enhancing llm-based code evaluation with question-specific rubrics,https://arxiv.org/abs/2503.23989,"R Gandhi, A Ramamoorthy",CodeBERTScore
+Evaluating large language model adaptation strategies for geospatial code generation,https://lup.lub.lu.se/student-papers/search/publication/9204646,,CodeBERTScore
+SIMCODE: A Benchmark for Natural Language to ns-3 Network Simulation Code Generation,https://arxiv.org/abs/2507.11014,"MM Azwad, S Choudhury",CodeBERTScore
+Identifying and Mitigating API Misuse in Large Language Models,https://arxiv.org/abs/2503.22821,"TY Zhuo, J He, J Sun, Z Xing, D Lo, J Grundy",CodeBERTScore
+End-User Customization of Trigger-Action Rules Through Fine-Tuned LLMs,https://link.springer.com/chapter/10.1007/978-3-031-95452-8_2,"G Cimino, V Deufemia",CodeBERTScore
+"Education, working group activities and pedagogic competencies their effect on teacher professionalism",https://www.atlantis-press.com/proceedings/ancosh-20/125955472,S Rahayu,CodeScore
+"Institutional investors, stewardship code disclosures and audit fees",https://www.emerald.com/insight/content/doi/10.1108/ARA-05-2020-0082/full/html,J Routledge,CodeScore
+Inspection and Understanding of Sewer Network Condition in Dindaeng District (Thailand),https://ph01.tci-thaijo.org/index.php/saujournalst/www.tci-thaijo.org/index.php/aer/article/view/241081,S Khaodhiar,CodeScore
+Artificial neural network (ANN) approach for predicting concrete compressive strength by SonReb,https://search.proquest.com/openview/0de2a89057d10a8d674872303733e031/1?pq-origsite=gscholar&cbl=4577404,L Nobile,CodeScore
+Applied Environmental Research,https://thaiscience.info/Journals/Article/APER/10995293.pdf,S Khaodhiar,CodeScore
+The Development Assessment Instruments Reading Appreciation Primary School,https://jfkip.umuslim.ac.id/index.php/alt/article/view/795,T Alamsyah,CodeScore
+Automated student code scoring by analyzing grammatical and semantic information of code,https://ieeexplore.ieee.org/abstract/document/9569318/,X Chen,CodeScore
+Creative thinking mathematical ability of students in Treffinger learning based on cognitive style,,D Dwijanto,CodeScore
+Root Cause Analysis: Patient Injury and Death Post Fall From Patient Bed,https://journals.lww.com/jcejournal/fulltext/2021/04000/root_cause_analysis__patient_injury_and_death_post.12.aspx,,CodeScore
+Colafuze: Coverage-guided and layout-aware fuzzing for android drivers,https://search.ieice.org/bin/pdf_link.php?category=D&fname=e104-d_11_1902&lang=&year=2021,,CodeScore
+Use of efficient machine learning techniques in the identification of patients with heart diseases,https://dl.acm.org/doi/abs/10.1145/3471287.3471297,"P Ghosh, A Karim, M Jonkman",CodeScore
+The Correlation Between Students' Vocabulary Mastery and Listening Achievement at 10th A Grade of Smks Keluarga Bunda Jambi,https://www.neliti.com/publications/441990/the-correlation-between-students-vocabulary-mastery-and-listening-achievement-at,YW Astika,CodeScore
+Improving Students' Ability in Writing Recount Text by Using the Characters in the Films,https://jlic.uinkhas.ac.id/index.php/jlic/article/view/49,R Lestiyanawati,CodeScore
+"Morphological Characterization of Selected Natural and Calcined TiO2 Photocatalysts Using SEM, XRD and BET",https://www.researchgate.net/profile/David-Kariuki-2/publication/367866063_Morphological_Characterization_of_Selected_Natural_and_Calcined_TiO2_Photocatalysts_Using_SEM_XRD_and_BET/links/64c7c580b61c4a2a97a49ec1/Morphological-Characterization-of-Selected-Natural-and-Calcined-TiO2-Photocatalysts-Using-SEM-XRD-and-BET.pdf,"PK Tum, DK Kariuki",CodeScore
+Analyzing the influence of concept understanding and self efficacy on student's algebraic thinking ability in flipped classroom learning model,,,CodeScore
+Classroom testing of virtual biomechanics laboratory (VBL) learning modules,https://peer.asee.org/classroom-testing-of-virtual-biomechanics-laboratory-vbl-learning-modules.pdf,"A Petrosino, LD Abraham",CodeScore
+A simulation model for application development in data warehouses,https://www.igi-global.com/chapter/a-simulation-model-for-application-development-in-data-warehouses/294496,N Rahman,CodeScore
+An analysis of student pedagogical skills in applying mathematics learning in elementary schools,http://www.journal.staihubbulwathan.id/index.php/alishlah/article/view/1795,"RW Witarsa, LM Rizki",CodeScore
+Preliminary verification of multi-group cross-sections generation and locally heterogeneous transport calculation using OpenMC with CEFR start-up tests benchmark,https://www.sciencedirect.com/science/article/pii/S0149197022003584,H Guo,CodeScore
+Awareness to the islamic social reporting (ISR) disclosure: A case study in companies listed in Jakarta islamic index (JII),https://jurnal.iicet.org/index.php/jppi/article/view/1547,H Haryono,CodeScore
+Tree health analysis of five families in Bogor Botanical Gardens,https://iopscience.iop.org/article/10.1088/1755-1315/959/1/012018/meta,"EN Herliyana, EI Putra",CodeScore
+"Pengaruh lama maturasi pada sintesis biokeramik komposit CaO-TiO2 terhadap ukuran kristal, mikrostruktur dan kekerasan",https://journal3.um.ac.id/index.php/mipa/article/view/1146,"H Hartatiek, CI Yogihati",CodeScore
+IMPROVING STUDENTS'VOCABULARY THROUGH DICTATION METHOD,http://conference.upgris.ac.id/index.php/allure/article/download/3008/1726,R Sukmaningrum,CodeScore
+Cytocipher detects significantly different populations of cells in single cell RNA-seq data,https://www.biorxiv.org/content/10.1101/2022.08.12.503759.abstract,"B Balderson, S Thor, M Boden",CodeScore
+"Quality control of pasteurized milk products in aluminum foil packaging at dairy a, sleman, special region of yogyakarta",,T Juwitaningtyas,CodeScore
+Communication of oncological patients with oncologists: main problems and problem-solving strategies,https://ijmr.com.ua/journals/vol-8-no-2-2022/communication-of-oncological-patients-with-oncologists-main-problems-and-problem-solving-strategies,O Tolstanov,CodeScore
+Implementation of engineering everywhere in physics LKPD based on stem approach to improve science process skills,http://download.garuda.kemdikbud.go.id/article.php?article=3589982&val=31167&title=Implementation%20of%20Engineering%20Everywhere%20in%20Physics%20LKPD%20Based%20on%20STEM%20Approach%20to%20Improve%20Science%20Process%20Skills,"Z Zainuddin, M Syukri",CodeScore
+Modeling techniques group setting on increasing adolescent self-regulation in traffic violation prevention,https://jurnal.iicet.org/index.php/j-edu/article/view/1486,"N Nurfarhanah, R Hariko, F Firman",CodeScore
+Comparing health outcomes between coronary interventions in frail patients aged 75 years or older with acute coronary syndrome: a systematic review,https://link.springer.com/article/10.1007/s41999-022-00667-9,"S Berkovsky, D Fraile Navarro",CodeScore
+YouTube-videos for patient education in lymphangioleiomyomatosis?,https://link.springer.com/article/10.1186/s12931-022-02022-9,,CodeScore
+Property based analysis: Optimality of RNY comma-free code versus circular code (X) after frameshift errors,https://www.sciencedirect.com/science/article/pii/S2452014422001601,T Ali,CodeScore
+"Quality of motif, colors and fastness of Sekar Ayu ecoprint products in terms of mordant type, natural dyes, and types of leaves on silk fabrics",https://iopscience.iop.org/article/10.1088/1755-1315/969/1/012043/meta,"SE Wahyuningsih, A Kusumastuti",CodeScore
+A hybrid approach to recommending universal decimal classification codes for cataloguing in Slovenian digital libraries,https://ieeexplore.ieee.org/abstract/document/9856668/,"M Borovič, M Ojsteršek, D Strnad",CodeScore
+Analyzing code text strings for code evaluation,https://ieeexplore.ieee.org/abstract/document/10386406/,T Wang,CodeScore
+Conference on Regional Entrepreneurship and Innovation-Comparative analysis and evaluation of the competitiveness of the regions of Apulia and,https://policycommons.net/artifacts/11278318/conference-on-regional-entrepreneurship-and-innovation/12163525/,,CodeScore
+Codetransocean: A comprehensive multilingual benchmark for code translation,https://arxiv.org/abs/2310.04951,"W Yan, Y Tian, Y Li, Q Chen, W Wang",CodeScore
+A review on code generation with llms: Application and evaluation,https://ieeexplore.ieee.org/abstract/document/10403378/,,CodeScore
+Usefulness of Community Pharmacy for Early Detection of Cognitive Impairment in Older People Using the IQ-CODE Questionnaire,https://www.sciencedirect.com/science/article/pii/S2274580724002073,,CodeScore
+Assessment of quality of life in patients with gastric cancer in Ukraine,https://wiadlek.pl/wp-content/uploads/archive/2023/05/WLek202305111.pdf,E Manzhalii,CodeScore
+Game-Based Educational Experience in Clinical Simulation and Academic Achievement in Medical Students,https://assets-eu.researchsquare.com/files/rs-3020600/v1/675db8d3-b67f-46a3-97c9-9575ca9379d6.pdf,,CodeScore
+Don't Complete It! Preventing Unhelpful Code Completion for Productive and Sustainable Neural Code Completion Systems,https://ieeexplore.ieee.org/abstract/document/10172653/,"Z Sun, X Du, F Song, S Wang, M Ni",CodeScore
+CodeScore: Evaluating Code Generation by Learning Code Execution. CoRR abs/2301.09043 (2023),,"Y Dong, X Jiang",CodeScore
+"Full Workflow for Archiving and Processing Magnetotelluric Data Using Open-Source Python Packages: Aurora, MTH5, and mt_metadata",https://ui.adsabs.harvard.edu/abs/2023AGUFMGP13C0505K/abstract,"K Kappler, GD Egbert",CodeScore
+A Simulation Model for Application Development in Enterprise Data Platforms,https://www.igi-global.com/chapter/a-simulation-model-for-application-development-in-enterprise-data-platforms/317719,N Rahman,CodeScore
+Promoting elderspeak awareness: Adapting changing talk online communication education for adult day services staff,https://journals.healio.com/doi/abs/10.3928/19404921-20230220-04,K Williams,CodeScore
+The Effect of Using Edpuzzle-Based Video in Electrolyte and Nonelectrolyte Solutions Learning on Student Learning Outcomes,https://e-journal3.undikma.ac.id/index.php/hydrogen/article/view/6115,J Harta,CodeScore
+Cytocipher determines significantly different populations of cells in single-cell RNA-seq data,https://academic.oup.com/bioinformatics/article-abstract/39/7/btad435/7224247,"B Balderson, S Thor, M Boden",CodeScore
+Codescore-r: An automated robustness metric for assessing the functionalcorrectness of code synthesis,https://arxiv.org/abs/2406.06902,"G Yang, Y Zhou, X Chen, X Zhang",CodeScore
+Is this code the best? Or can it be improved further? Developer stats to the rescue,https://ieeexplore.ieee.org/abstract/document/10703058/,"W Ahmed, A Harbaoui",CodeScore
+On the limitations of embedding based methods for measuring functional correctness for code generation,https://arxiv.org/abs/2405.01580,A Naik,CodeScore
+Retraction Note: Quality-based pattern C2 code score-level fusion in multimodal biometric authentication system using pattern net,https://link.springer.com/article/10.1007/s00500-024-10208-0,,CodeScore
+Doce: Finding the sweet spot for execution-based code generation,https://arxiv.org/abs/2408.13745,"HS Li, P Fernandes, I Gurevych, AFT Martins",CodeScore
+Using large language models for student-code guided test case generation in computer science education,https://arxiv.org/abs/2402.07081,"NA Kumar, A Lan",CodeScore
+Is YouTube a reliable source of education for the intravitreal injection procedure?,https://www.sciencedirect.com/science/article/pii/S0181551224002390,,CodeScore
+Quantitative analysis of Oxidized Pearl Oyster Shell Powder (Muthuchippi Parpam) at various stages of processing,https://www.academia.edu/download/118515096/Quantitative_analysis_of_Oxidized_Pearl.pdf,,CodeScore
+FuncEvalGMN: Evaluating Functional Correctness of SQL via Graph Matching Network,https://arxiv.org/abs/2407.14530,"Y Zhan, Y Sun, L Cui",CodeScore
+Methodology for code synthesis evaluation of LLMs presented by a case study of ChatGPT and copilot,https://ieeexplore.ieee.org/abstract/document/10535504/,"I Siket, R Ferenc",CodeScore
+Improving Software Education with Technical Debt Analysis Tool,https://ieeexplore.ieee.org/abstract/document/10850816/,"M Horvath, E Pietrikova",CodeScore
+Endothelial dysfunction and pre-existing cognitive disorders in stroke patients,https://www.mdpi.com/2218-273X/14/6/721,,CodeScore
+An Analysis of Students' Mathematical Understanding in Solving Pythagorean Theorem Problems in Eighth Grade,https://ejournal.papanda.org/index.php/ijarme/article/view/2249,,CodeScore
+RETRACTED: Acceleration of the vehicle's technique for collecting environmental particulates caused by tyre and brake wear,https://www.e3s-conferences.org/articles/e3sconf/pdf/2024/68/e3sconf_ipfa2024_03028.pdf,,CodeScore
+Poster: Benchmarking of Code Generative LLMs,https://ieeexplore.ieee.org/abstract/document/10630922/,"MM Rahman, A Kundu, E Bertino",CodeScore
+New Advances in the Analysis of Ceramic Materials,https://www.academia.edu/download/120458363/new_advances_in_the_analysis_of_ceramic_materials.pdf,,CodeScore
+Codescore: Evaluating code generation by learning code execution,https://dl.acm.org/doi/abs/10.1145/3695991,"Y Dong, X Jiang, G Li, Z Li, Z Jin",CodeScore
+Development and validation of a score for clinical deterioration in patients with cerebral venous thrombosis,https://link.springer.com/article/10.1007/s10143-025-03224-7,,CodeScore
+Coding Triangle: How Does Large Language Model Understand Code?,https://arxiv.org/abs/2507.06138,"T Zhang, Z Ma, M Cao, J Liu, S Zhang",CodeScore
+Bridging Programming Languages: A Comprehensive Survey of Code Translation Techniques,https://pijet.org/papers/volume-2%20issue-2/Final%20Revised%20Paper_Pijet-08.pdf,,CodeScore
+DECODE the quality of dying in the intensive care unit,https://www.medrxiv.org/content/10.1101/2025.07.13.25331477.abstract,"GJ Duke, NJ Johnson",CodeScore
+TestGPT-Server: Automatically Testing Microservices with Large Language Models at ByteDance,https://dl.acm.org/doi/abs/10.1145/3696630.3728545,J Wang,CodeScore
+Game-based educational experience in clinical simulation and academic achievement in medical students: a retrospective study,https://link.springer.com/article/10.1186/s12909-025-07070-5,,CodeScore
+Empowering Interior Design Students and Local Communities through Task-Based Language Teaching (TBLT),https://rcsdevelopment.org/index.php/rcsd/article/view/533,"AKL Dasa, GDA Wicaksana",CodeScore
+Towards Database-Free Text-to-SQL Evaluation: A Graph-Based Metric for Functional Correctness,https://aclanthology.org/2025.coling-main.308/,"Y Zhan, L Cui, H Weng, G Wang, Y Tian",CodeScore
+Learning to Generate Unit Test via Adversarial Reinforcement Learning,https://arxiv.org/abs/2508.21107,"D Lee, K Lee",CodeScore
+Effects of using different rural measurements on estimates of hospitalizations for depression and substance use,https://link.springer.com/article/10.1186/s12913-025-12815-5,"J Blackburn, M Greene, O Mazurenko",CodeScore
+CODE-DITING: A Reasoning-Based Metric for Functional Alignment in Code Evaluation,https://arxiv.org/abs/2505.19502,"G Yang, Y Zhou, X Chen, W Zheng, X Hu",CodeScore
+The Future of Code Style: Learning with Gamified Online Tools,https://digitalcommons.colby.edu/honorstheses/1516/,JC Tjaden,CodeScore
+MULTI-COMPONENT EMPIRICAL EVALUATION SCALE FOR IMMERSIVE BEHAVIORAL INTERFACES,https://www.researchgate.net/profile/Abdelkrim-Mebarki/publication/390136931_Multi-Component_Empirical_Evaluation_Scale_for_Immersive_Behavioral_Interfaces/links/67e1af0be2c0ea36cd9c0ba9/Multi-Component-Empirical-Evaluation-Scale-for-Immersive-Behavioral-Interfaces.pdf,A Mebarki,CodeScore
+FullFront: Benchmarking MLLMs Across the Full Front-End Engineering Workflow,https://arxiv.org/abs/2505.17399,"H Sun, HW Wang, J Gu, L Li, Y Cheng",CodeScore
+Design and Implementation of an Automatic Grading System for Programming Code Based on Artificial Intelligence,https://ieeexplore.ieee.org/abstract/document/11139057/,,CodeScore
+The Development of Learning Media on Building Three-Dimensional Shape using E-Comic,http://journal.ikipsiliwangi.ac.id/index.php/jiml/article/view/24636,N Fitriani,CodeScore
+CodeBLEU: a Method for Automatic Evaluation of Code Synthesis,http://arxiv.org/abs/2009.10297v2,"Shuo Ren, Daya Guo, Shuai Lu, Long Zhou, Shujie Liu, Duyu Tang, Neel Sundaresan, Ming Zhou, Ambrosio Blanco, Shuai Ma",CodeBLEU
+"Enhancing Cross-Language Code Translation via Task-Specific Embedding
+  Alignment in Retrieval-Augmented Generation",http://arxiv.org/abs/2412.05159v1,"Manish Bhattarai, Minh Vu, Javier E. Santos, Ismael Boureima, Daniel O' Malley",CodeBLEU
+"CodeRosetta: Pushing the Boundaries of Unsupervised Code Translation for
+  Parallel Programming",http://arxiv.org/abs/2410.20527v1,"Ali TehraniJamsaz, Arijit Bhattacharjee, Le Chen, Nesreen K. Ahmed, Amir Yazdanbakhsh, Ali Jannesari",CodeBLEU
+"GeoAnalystBench: A GeoAI benchmark for assessing large language models
+  for spatial analysis workflow and code generation",http://arxiv.org/abs/2509.05881v1,"Qianheng Zhang, Song Gao, Chen Wei, Yibo Zhao, Ying Nie, Ziru Chen, Shijie Chen, Yu Su, Huan Sun",CodeBLEU
+"Beyond Surface Similarity: Evaluating LLM-Based Test Refactorings with
+  Structural and Semantic Awareness",http://arxiv.org/abs/2506.06767v1,"Wendkûuni C. Ouédraogo, Yinghua Li, Xueqi Dang, Xin Zhou, Anil Koyuncu, Jacques Klein, David Lo, Tegawendé F. Bissyandé",CodeBLEU
+"Out of the BLEU: how should we assess quality of the Code Generation
+  models?",http://arxiv.org/abs/2208.03133v2,"Mikhail Evtikhiev, Egor Bogomolov, Yaroslav Sokolov, Timofey Bryksin",CodeBLEU
+"Creating a Dataset for High-Performance Computing Code Translation using
+  LLMs: A Bridge Between OpenMP Fortran and C++",http://arxiv.org/abs/2307.07686v4,"Bin Lei, Caiwen Ding, Le Chen, Pei-Hung Lin, Chunhua Liao",CodeBLEU
+Generating refactored code accurately using reinforcement learning,http://arxiv.org/abs/2412.18035v1,"Indranil Palit, Tushar Sharma",CodeBLEU
+Fixing Security Vulnerabilities with AI in OSS-Fuzz,http://arxiv.org/abs/2411.03346v2,"Yuntong Zhang, Jiawei Wang, Dominic Berzin, Martin Mirchev, Dongge Liu, Abhishek Arya, Oliver Chang, Abhik Roychoudhury",CodeBLEU
+"CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding
+  and Generation",http://arxiv.org/abs/2102.04664v2,"Shuai Lu, Daya Guo, Shuo Ren, Junjie Huang, Alexey Svyatkovskiy, Ambrosio Blanco, Colin Clement, Dawn Drain, Daxin Jiang, Duyu Tang, Ge Li, Lidong Zhou, Linjun Shou, Long Zhou, Michele Tufano, Ming Gong, Ming Zhou, Nan Duan, Neel Sundaresan, Shao Kun Deng, Shengyu Fu, Shujie Liu",CodeBLEU
+"A Novel Approach for Rapid Development Based on ChatGPT and Prompt
+  Engineering",http://arxiv.org/abs/2312.13115v2,"Youjia Li, Jianjun Shi, Zheng Zhang",CodeBLEU
+Measuring Code Efficiency Optimization Capabilities with ACEOB,http://arxiv.org/abs/2408.12960v1,"Yue Pan, Xiuting Shao, Chen Lyu",CodeBLEU
+"Fortran2CPP: Automating Fortran-to-C++ Translation using LLMs via
+  Multi-Turn Dialogue and Dual-Agent Integration",http://arxiv.org/abs/2412.19770v2,"Le Chen, Bin Lei, Dunzhi Zhou, Pei-Hung Lin, Chunhua Liao, Caiwen Ding, Ali Jannesari",CodeBLEU
+Enhancing Code LLM Training with Programmer Attention,http://arxiv.org/abs/2503.14936v2,"Yifan Zhang, Chen Huang, Zachary Karas, Dung Thuy Nguyen, Kevin Leach, Yu Huang",CodeBLEU
+"Enhancing LLM Code Generation with Ensembles: A Similarity-Based
+  Selection Approach",http://arxiv.org/abs/2503.15838v2,"Tarek Mahmud, Bin Duan, Corina Pasareanu, Guowei Yang",CodeBLEU
+"CCCI: Code Completion with Contextual Information for Complex Data
+  Transfer Tasks Using Large Language Models",http://arxiv.org/abs/2503.23231v1,"Hangzhan Jin, Mohammad Hamdaqa",CodeBLEU
+"Empowering AI to Generate Better AI Code: Guided Generation of Deep
+  Learning Projects with LLMs",http://arxiv.org/abs/2504.15080v1,"Chen Xie, Mingsheng Jiao, Xiaodong Gu, Beijun Shen",CodeBLEU
+"AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM
+  Agents",http://arxiv.org/abs/2508.01012v1,"Yiyi Lu, Hoi Ian Au, Junyao Zhang, Jingyu Pan, Yiting Wang, Ang Li, Jianyi Zhang, Yiran Chen",CodeBLEU
+Measuring LLM Code Generation Stability via Structural Entropy,http://arxiv.org/abs/2508.14288v1,"Yewei Song, Tiezhu Sun, Xunzhu Tang, Prateek Rajput, Tegawende F. Bissyande, Jacques Klein",CodeBLEU
+"How Important are Good Method Names in Neural Code Generation? A Model
+  Robustness Perspective",http://arxiv.org/abs/2211.15844v2,"Guang Yang, Yu Zhou, Wenhua Yang, Tao Yue, Xiang Chen, Taolue Chen",CodeBLEU
+Domain Adaptation for Code Model-based Unit Test Case Generation,http://arxiv.org/abs/2308.08033v3,"Jiho Shin, Sepehr Hashtroudi, Hadi Hemmati, Song Wang",CodeBLEU
+"SteloCoder: a Decoder-Only LLM for Multi-Language to Python Code
+  Translation",http://arxiv.org/abs/2310.15539v2,"Jialing Pan, Adrien Sadé, Jin Kim, Eric Soriano, Guillem Sole, Sylvain Flamant",CodeBLEU
+"Multi-LLM Collaboration + Data-Centric Innovation = 2x Better
+  Vulnerability Repair",http://arxiv.org/abs/2401.15459v3,"Xin Zhou, Kisub Kim, Bowen Xu, DongGyun Han, David Lo",CodeBLEU
+"Improving the Learning of Code Review Successive Tasks with Cross-Task
+  Knowledge Distillation",http://arxiv.org/abs/2402.02063v1,"Oussama Ben Sghaier, Houari Sahraoui",CodeBLEU
+RAMBO: Enhancing RAG-based Repository-Level Method Body Completion,http://arxiv.org/abs/2409.15204v3,"Tuan-Dung Bui, Duc-Thieu Luu-Van, Thanh-Phat Nguyen, Thu-Trang Nguyen, Son Nguyen, Hieu Dinh Vo",CodeBLEU
+"Preference-Guided Refactored Tuning for Retrieval Augmented Code
+  Generation",http://arxiv.org/abs/2409.15895v1,"Xinyu Gao, Yun Xiong, Deze Wang, Zhenhan Guan, Zejian Shi, Haofen Wang, Shanshan Li",CodeBLEU
+"Instructive Code Retriever: Learn from Large Language Model's Feedback
+  for Code Intelligence Tasks",http://arxiv.org/abs/2410.11300v1,"Jiawei Lu, Haoye Wang, Zhongxin Liu, Keyu Liang, Lingfeng Bao, Xiaohu Yang",CodeBLEU
+"I Can't Share Code, but I need Translation -- An Empirical Study on Code
+  Translation through Federated LLM",http://arxiv.org/abs/2501.05724v1,"Jahnavi Kumar, Venkata Lakshmana Sasaank Janapati, Mokshith Reddy Tanguturi, Sridhar Chimalakonda",CodeBLEU
+"Improving Deep Assertion Generation via Fine-Tuning Retrieval-Augmented
+  Pre-trained Language Models",http://arxiv.org/abs/2502.16071v1,"Quanjun Zhang, Chunrong Fang, Yi Zheng, Yaxin Zhang, Yuan Zhao, Rubing Huang, Jianyi Zhou, Yun Yang, Tao Zheng, Zhenyu Chen",CodeBLEU
+"Enhancing LLM-based Code Translation in Repository Context via Triple
+  Knowledge-Augmented",http://arxiv.org/abs/2503.18305v2,"Guangsheng Ou, Mingwei Liu, Yuxuan Chen, Xueying Du, Shengbo Wang, Zekai Zhang, Xin Peng, Zibin Zheng",CodeBLEU
+"SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic
+  Reproduction from Research Papers",http://arxiv.org/abs/2504.00255v2,"Yanzheng Xiang, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He",CodeBLEU
+"CodeBC: A More Secure Large Language Model for Smart Contract Code
+  Generation in Blockchain",http://arxiv.org/abs/2504.21043v2,"Lingxiang Wang, Hainan Zhang, Qinnan Zhang, Ziwei Wang, Hongwei Zheng, Jin Dong, Zhiming Zheng",CodeBLEU
+Mutual-Supervised Learning for Sequential-to-Parallel Code Translation,http://arxiv.org/abs/2506.11153v1,"Changxin Ke, Rui Zhang, Shuo Wang, Li Ding, Guangli Li, Yuanbo Wen, Shuoming Zhang, Ruiyuan Xu, Jin Qin, Jiaming Guo, Chenxi Wang, Ling Li, Qi Guo, Yunji Chen",CodeBLEU
+On the Effect of Token Merging on Pre-trained Models for Code,http://arxiv.org/abs/2507.14423v1,"Mootez Saad, Hao Li, Tushar Sharma, Ahmed E. Hassan",CodeBLEU
+"Model-Driven Quantum Code Generation Using Large Language Models and
+  Retrieval-Augmented Generation",http://arxiv.org/abs/2508.21097v1,"Nazanin Siavash, Armin Moin",CodeBLEU
+"Benchmarking Causal Study to Interpret Large Language Models for Source
+  Code",http://arxiv.org/abs/2308.12415v1,"Daniel Rodriguez-Cardenas, David N. Palacio, Dipin Khati, Henry Burke, Denys Poshyvanyk",CodeBLEU
+MonoCoder: Domain-Specific Code Language Model for HPC Codes and Tasks,http://arxiv.org/abs/2312.13322v3,"Tal Kadosh, Niranjan Hasabnis, Vy A. Vo, Nadav Schneider, Neva Krien, Mihai Capota, Abdul Wasay, Nesreen Ahmed, Ted Willke, Guy Tamir, Yuval Pinter, Timothy Mattson, Gal Oren",CodeBLEU
+"Teaching Code LLMs to Use Autocompletion Tools in Repository-Level Code
+  Generation",http://arxiv.org/abs/2401.06391v3,"Chong Wang, Jian Zhang, Yebo Feng, Tianlin Li, Weisong Sun, Yang Liu, Xin Peng",CodeBLEU
+Enhancing Automated Program Repair with Solution Design,http://arxiv.org/abs/2408.12056v2,"Jiuang Zhao, Donghao Yang, Li Zhang, Xiaoli Lian, Zitian Yang, Fang Liu",CodeBLEU
+PyGen: A Collaborative Human-AI Approach to Python Package Creation,http://arxiv.org/abs/2411.08932v4,"Saikat Barua, Mostafizur Rahman, Md Jafor Sadek, Rafiul Islam, Shehenaz Khaled, Md. Shohrab Hossain",CodeBLEU
+"Understanding the Effectiveness of LLMs in Automated Self-Admitted
+  Technical Debt Repayment",http://arxiv.org/abs/2501.09888v1,"Mohammad Sadegh Sheikhaei, Yuan Tian, Shaowei Wang, Bowen Xu",CrystalBLEU
+"Evaluating and Optimizing the Effectiveness of Neural Machine
+  Translation in Supporting Code Retrieval Models: A Study on the CAT Benchmark",http://arxiv.org/abs/2308.04693v1,"Hung Phan, Ali Jannesari",CrystalBLEU
+"On the Limitations of Embedding Based Methods for Measuring Functional
+  Correctness for Code Generation",http://arxiv.org/abs/2405.01580v1,Atharva Naik,CodeBERTScore
+"AutoParLLM: GNN-guided Context Generation for Zero-Shot Code
+  Parallelization using LLMs",http://arxiv.org/abs/2310.04047v3,"Quazi Ishtiaque Mahmud, Ali TehraniJamsaz, Hung Phan, Le Chen, Mihai Capotă, Theodore Willke, Nesreen K. Ahmed, Ali Jannesari",CodeBERTScore
+"Aligning LLMs through Multi-perspective User Preference Ranking-based
+  Feedback for Programming Question Answering",http://arxiv.org/abs/2406.00037v1,"Hongyu Yang, Liyang He, Min Hou, Shuanghong Shen, Rui Li, Jiahui Hou, Jianhui Ma, Junda Zhao",CodeBERTScore

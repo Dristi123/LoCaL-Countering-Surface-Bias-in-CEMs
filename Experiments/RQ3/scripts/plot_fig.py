@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from matplotlib.lines import Line2D
 
-# ------------------ Global style to match bar plot ------------------
+
 mpl.rcParams.update({
     "font.family": "DejaVu Sans",
-    "font.size": 14,         # base size
+    "font.size": 14,        
     "axes.titlesize": 14,
     "axes.labelsize": 14,
     "xtick.labelsize": 14,
@@ -20,36 +20,35 @@ mpl.rcParams.update({
     "mathtext.default": "regular",
 })
 
-# ------------------ Config ------------------
-INPUT = Path("combined_custom_sample.jsonl")
+
+INPUT = Path("combined_dataset.jsonl")
 SURF, SEM = "surfaceSim", "score"
 
-# Thresholds
+
 TX_LO = 0.65
 TX_HI = 0.90
 TY_LO = 0.10
 TY_HI = 0.90
 
-OUT_DIR  = Path("threshold_plots_clean_big")
-OUT_STEM = "scatter_by_source_clean"   # will save .png and .pdf
+OUT_DIR  = Path("../results")
+OUT_STEM = "scatter_plot"   
 
-# Plot styling
+
 POINT_SIZE  = 26
 ALPHA       = 1
 YLIM_TOP    = 1.02
-XLIM_RIGHT  = 1.01   # << same headroom as Y; was 1.00
+XLIM_RIGHT  = 1.01   
 
 FIG_SIZE = (9.6, 5.8)
 
-# Colors by source (points)
-COLOR_BASELINE = "#1f77b4"  # blue
-COLOR_LOCAL    = "#d62728"  # red
-COLOR_OTHERS   = "#9e9e9e"  # gray (if any other source)
 
-# Region fills (light olive & light green)
-DFS_FILL_RGBA = (0.66, 0.87, 0.68, 0.40)  # light green (top-left / DFS)
-SFD_FILL_RGBA = (0.86, 0.88, 0.61, 0.70)  # light olive (bottom-right / SFD)
-# --------------------------------------------------------------------
+COLOR_BASELINE = "#1f77b4"  
+COLOR_LOCAL    = "#d62728"  
+COLOR_OTHERS   = "#9e9e9e"  
+
+DFS_FILL_RGBA = (0.66, 0.87, 0.68, 0.40)  
+SFD_FILL_RGBA = (0.86, 0.88, 0.61, 0.70)  
+
 
 def f2(x):
     try:
@@ -105,7 +104,7 @@ def main():
     if not pts:
         raise SystemExit("No valid rows in input.")
 
-    # Split by source for coloring
+ 
     bx = [x for x, y, s in pts if s == "baseline"]
     by = [y for x, y, s in pts if s == "baseline"]
     lx = [x for x, y, s in pts if s == "local"]
@@ -116,16 +115,16 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     fig, ax = plt.subplots(figsize=FIG_SIZE)
 
-    # DFS (top-left) region
+  
     dfs_w, dfs_h = max(TX_LO - 0.0, 0), max(YLIM_TOP - TY_HI, 0)
     ax.add_patch(Rectangle((0.0, TY_HI), width=dfs_w, height=dfs_h,
                            facecolor=DFS_FILL_RGBA, edgecolor='none', zorder=0))
-    # SFD (bottom-right) region
+  
     sfd_w, sfd_h = max(XLIM_RIGHT - TX_HI, 0), max(TY_LO - 0.0, 0)
     ax.add_patch(Rectangle((TX_HI, 0.0), width=sfd_w, height=sfd_h,
                            facecolor=SFD_FILL_RGBA, edgecolor='none', zorder=0))
 
-    # Points
+  
     if bx:
         ax.scatter(bx, by, s=POINT_SIZE, alpha=ALPHA, c=COLOR_BASELINE,
                    edgecolors="none", label=r"$\mathrm{CodeScore}_{\mathrm{test}}$", zorder=2)
@@ -136,10 +135,10 @@ def main():
         ax.scatter(ox, oy, s=POINT_SIZE, alpha=0.45, c=COLOR_OTHERS,
                    edgecolors="none", label="_nolegend_", zorder=1)
 
-    # ---- Set limits before ticks (with optional left truncation) ----
+   
     all_x = [*bx, *lx, *ox] if (bx or lx or ox) else [0.0]
     min_x = min(all_x)
-    x_left = max(0.0, min(TX_LO - 0.05, min_x - 0.02))  # keep DFS band visible
+    x_left = max(0.0, min(TX_LO - 0.05, min_x - 0.02)) 
     ax.set_xlim(x_left, XLIM_RIGHT)
     ax.set_ylim(0.0, YLIM_TOP)
 
@@ -152,8 +151,7 @@ def main():
     ax.axhline(TY_LO, linestyle="--", linewidth=1.8, color="black", zorder=4)
     ax.axhline(TY_HI, linestyle="--", linewidth=1.8, color="black", zorder=4)
 
-    # -------- Fixed 0.2 tick spacing on BOTH axes --------
-    # X ticks: start at first 0.2-multiple inside current xlim; stop at 1.00.
+   
     start_x = round_up_to_step(ax.get_xlim()[0], 0.2)
     xticks = [round(start_x + i*0.2, 2) for i in range(int((1.0 - start_x)/0.2) + 1)]
     ax.set_xticks(xticks)
@@ -168,13 +166,13 @@ def main():
             xlabels.append(f"{t:.2f}")
     ax.set_xticklabels(xlabels)
 
-    # Custom x_lo label placed slightly right of its tick (avoids crowding 0.60)
+   
     ax.text(TX_LO + 0.09, -0.016, rf"$x_{{\mathrm{{lo}}}}={TX_LO:.2f}$",
             transform=ax.get_xaxis_transform(), ha='right', va='top', color='black')
     ax.text(TX_HI - 0.04, -0.016, rf"$x_{{\mathrm{{hi}}}}={TX_HI:.2f}$",
         transform=ax.get_xaxis_transform(), ha='left', va='top', color='black')
 
-    # Y ticks: exactly 0.0, 0.2, ..., 1.0
+  
     yticks = [round(i*0.2, 2) for i in range(0, 6)]
     ax.set_yticks(yticks)
     ylabels = []
@@ -191,9 +189,7 @@ def main():
 
     ax.text(-0.02, TY_HI, rf"$y_{{\mathrm{{hi}}}}={TY_HI:.2f}$",
         transform=ax.get_yaxis_transform(), ha='right', va='center', color='black')
-    # ------------------------------------------------------
-
-    # Axes labels and legend
+ 
     ax.set_xlabel("SurfaceSim")
     ax.set_ylabel(r"$\mathrm{df}_{\mathrm{score}}$")
 
@@ -217,8 +213,15 @@ def main():
     fig.savefig(png_path, dpi=200, bbox_inches="tight")
     fig.savefig(pdf_path,            bbox_inches="tight")
     plt.close(fig)
-    print(f"[ok] saved -> {png_path.resolve()}")
-    print(f"[ok] saved -> {pdf_path.resolve()}")
-
+    print(f" saved {png_path.resolve()}")
+    print(f"saved  {pdf_path.resolve()}")
 if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--tx-lo", type=float)
+    ap.add_argument("--tx-hi", type=float)
+    ap.add_argument("--ty-lo", type=float)
+    ap.add_argument("--ty-hi", type=float)
+    args = ap.parse_args()
+    TX_LO, TX_HI, TY_LO, TY_HI = args.tx_lo, args.tx_hi, args.ty_lo, args.ty_hi
     main()

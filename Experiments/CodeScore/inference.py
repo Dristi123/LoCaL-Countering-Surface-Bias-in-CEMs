@@ -13,21 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""
-python inference.py --cfg configs/models/unified_metric.yaml --ckpt_path models/epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt --test_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/tests/temp_data.jsonl --out_file tests/
-Command for training new Metrics.
-=================================
 
-e.g:
-```
-    comet-train --cfg configs/models/regression_metric.yaml --seed_everything 12
-```
-
-For more details run the following command:
-```
-    comet-train --help
-```
-"""
 import json
 import logging
 import warnings
@@ -159,15 +145,6 @@ def train_command() -> None:
         ex["predict_score"] = float(s)
             
     write_jsonl(cfg.out_file, examples) 
-
-#python inference.py --cfg configs/models/unified_metric.yaml --ckpt_path /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/CodeScore/models/epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt --test_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/tests/temp_data.jsonl --out_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/results/out.jsonl
-#python inference.py --cfg configs/models/unified_metric.yaml --ckpt_path /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/CodeScore/models/epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt --test_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/tests/pie_for_codescore.jsonl --out_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/results/out.jsonl
-#python inference.py --cfg configs/models/unified_metric.yaml --ckpt_path /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/tests/non_eq_random.jsonl --out_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/results/output_random.jsonl
-#python inference.py --cfg configs/models/unified_metric.yaml --ckpt_path /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/CodeScore/models/epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt --test_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/tests/non_eq_random.jsonl --out_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/results/output_random.jsonl
-#python inference.py --cfg configs/models/unified_metric.yaml --ckpt_path /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/CodeScore/models/epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt --test_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/Datasets/MBPP/test.jsonl --out_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/results/output_mbpp_test.jsonl
-#/scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/Datasets/MBPP/test.jsonl
-
-#python inference_orig.py --cfg configs/models/unified_metric_orig.yaml --ckpt_path /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/CodeScore/models/epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt --test_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/tests/pie_for_codescore.jsonl --out_file /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/CodeScore/results/out.jsonl
 
 
 if __name__ == "__main__":

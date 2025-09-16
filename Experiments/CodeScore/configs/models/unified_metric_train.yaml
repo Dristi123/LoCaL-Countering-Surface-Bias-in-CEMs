@@ -19,11 +19,10 @@ unified_metric:
     batch_size: 7
     # batch_size: 18
     train_data:
-      - /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/Experiments/RQ5/Scripts/merged_splits_local_run3_Random_2000/train_replace.jsonl
+      - ""
 
     validation_data: 
-      - /scratch/nwc8gr/Code_Sum_Gen/BaseLInes/Evaluation/Experiments/RQ5/Scripts/merged_splits_local_run3_Random_2000/val_local_replace.jsonl
-
+      - ""
     hidden_sizes:
       - 3072
       - 1024

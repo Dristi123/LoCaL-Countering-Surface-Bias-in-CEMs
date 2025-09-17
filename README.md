@@ -1,5 +1,6 @@
 # LoCaL-Countering-Surface-Bias-in-CEMs
 This repository contains the replication package that generates results shown in the submission.
+<br>**For consistency, figures and tables in this README use the same numbering as the paper.</br>
 ## Conda Environment
 1. Create a Conda env
 ```bash

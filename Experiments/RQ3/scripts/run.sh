@@ -15,4 +15,5 @@ read TX_LO TX_HI TY_LO TY_HI < <(printf "%s" "$LINE" | grep -oE '[0-9]+(\.[0-9]+
 echo "Using thresholds: tx_lo=$TX_LO tx_hi=$TX_HI ty_lo=$TY_LO ty_hi=$TY_HI"
 python3 "$PLOT_SCRIPT" --tx-lo "$TX_LO" --tx-hi "$TX_HI" --ty-lo "$TY_LO" --ty-hi "$TY_HI"
 
-
+## To calculate percentage of LoCaL's muts in SFD and opts in DFS
+#python3 calculate_hit_rate.py

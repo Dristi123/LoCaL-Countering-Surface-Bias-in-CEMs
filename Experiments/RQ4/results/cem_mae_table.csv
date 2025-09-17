@@ -1,0 +1,6 @@
+Language,Dataset,CodeBLEU,CrystalBLEU,CodeBERTScore,CodeScore
+Python,CodeScore_test,0.26,0.27,0.57,0.09
+Python,LoCaL,0.80,0.73,0.79,0.76
+Python,LoCaLopt,0.67,0.87,0.16,0.36
+Python,LoCaLmut,0.83,0.71,0.90,0.83
+Java,ShareCode_java,0.43,0.47,0.46,N/A

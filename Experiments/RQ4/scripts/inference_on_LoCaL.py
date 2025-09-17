@@ -5,21 +5,23 @@ import tempfile
 import subprocess
 from pathlib import Path
 from typing import List, Dict, Any
+import sys
+THIS_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, "../../Common_Scripts")
 
-# ----------------- paths & knobs -----------------
-INPUT_JSONL   = Path("../LoCaL_with_PIEextra_mutOnly.jsonl")                     # your LoCaL jsonl
-OUT_JSONL     = Path("local_pie_extra_all_mut_only_with_scores.jsonl")        # output jsonl
+INPUT_JSONL   =  Path("../../../LoCaL.jsonl")                   
+OUT_JSONL     =  Path("local_with_scores_temp.jsonl")        
 
 LANGUAGE         = "python"
-BATCH_SIZE_CBERT = 32         # chunk size for CodeBERTScore
-LIMIT            = None       # None = all rows (set small int for a smoke test)
+BATCH_SIZE_CBERT = 32         
+LIMIT            = None       
 
-# CodeScore toggles/paths (optional; set USE_CODESCORE=False to skip)
+
 USE_CODESCORE   = True
-CODESCORE_INFER = Path("../inference_orig.py")
-CODESCORE_CFG   = Path("../unified_metric_orig.yaml")
-CODESCORE_CKPT  = Path("../epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt")
-# ------------------------------------------------
+CODESCORE_INFER = Path("../../CodeScore/inference_orig.py")
+CODESCORE_CFG = Path("../../CodeScore/configs/models/unified_metric_orig.yaml")
+CODESCORE_CKPT = Path("../../CodeScore/models/epoch%3D8-step%3D299583-val_pearson%3D0.739.ckpt")
+
 
 
 def compute_codebleu_single(ref: str, hyp: str, language: str) -> float:
@@ -32,7 +34,7 @@ def compute_codebleu_single(ref: str, hyp: str, language: str) -> float:
 
 
 def compute_crystalbleu_single(ref: str, hyp: str, language: str) -> float:
-    # expects crystal_bleu_utils.py on PYTHONPATH
+   
     from crystal_bleu_utils import crystal_BLEU
     score = crystal_BLEU([ref], [hyp], language=language)  # returns a list of scores
     
@@ -41,13 +43,13 @@ def compute_crystalbleu_single(ref: str, hyp: str, language: str) -> float:
 
 
 def compute_codebertscore_batch(refs, hyps, language: str, batch_size: int = 64):
-    # (kept as-is per your request)
+   
     try:
         import code_bert_score
     except Exception:
         return [float("nan")] * len(refs)
 
-    print("hereeeeeeeee")
+    #print("hereeeeeeeee")
     n = len(refs)
     out = []
 
@@ -71,15 +73,11 @@ PRED_KEYS = ("predict_score", "pred_score", "predicted_score", "prediction", "sc
 
 
 def compute_codescore_batch_jsonl(refs: List[str], hyps: List[str]) -> List[float]:
-    """
-    Runs CodeScore's inference script in one shot on a temporary JSONL.
-    Writes {"id","golden_code","generated_code"} per sample (matches your working format).
-    Returns list of floats aligned with (refs, hyps).
-    """
+    
     if not USE_CODESCORE:
         return [float("nan")] * len(refs)
     if not (CODESCORE_INFER.exists() and CODESCORE_CFG.exists() and CODESCORE_CKPT.exists()):
-        print("[warn] CodeScore disabled: missing inference.py, cfg, or ckpt.")
+        print("CodeScore disabled: missing inference.py, cfg, or ckpt.")
         return [float("nan")] * len(refs)
 
     with tempfile.TemporaryDirectory() as td:
@@ -134,11 +132,7 @@ def compute_codescore_batch_jsonl(refs: List[str], hyps: List[str]) -> List[floa
 
 
 def load_local_rows(p: Path, limit=None) -> List[Dict[str, Any]]:
-    """
-    Loads LoCaL rows, mapping to a baseline-consistent structure:
-    id, golden_code, generated_code, score (semantic_similarity),
-    plus we keep origin/level/variant in memory for id construction.
-    """
+    
     rows = []
     with p.open("r", encoding="utf-8") as f:
         for i, line in enumerate(f):
@@ -152,7 +146,7 @@ def load_local_rows(p: Path, limit=None) -> List[Dict[str, Any]]:
             except Exception:
                 continue
 
-            # required LoCaL fields
+           
             if not all(k in obj for k in ("origin", "task_id", "variant_id", "original_code", "variant_code")):
                 continue
 
@@ -162,14 +156,12 @@ def load_local_rows(p: Path, limit=None) -> List[Dict[str, Any]]:
             level     = obj.get("level", "")
             gold      = obj.get("original_code", "")
             hyp       = obj.get("variant_code", "")
-            sem_sim   = obj.get("df_score", None)   # ground-truth score
-            surf_sim  = obj.get("surface_similarity", None)     # provided by LoCaL
+            sem_sim   = obj.get("df_score", None)  
+            surf_sim  = obj.get("surface_similarity", None)     
 
-            # Construct a consistent baseline-style id
-            # e.g., LOCAL_APPS_13_1_MUT_1
+            
             parts = ["LOCAL", origin, task_id, variant]
             if level:
-                # keep level only if you want it in id; can be omitted
                 pass
             rid = "_".join(parts)
 
@@ -178,7 +170,7 @@ def load_local_rows(p: Path, limit=None) -> List[Dict[str, Any]]:
                 "golden_code": gold,
                 "generated_code": hyp,
                 "score": sem_sim,
-                "surface_similarity": surf_sim,   # keep to copy into surfaceSim later
+                "surface_similarity": surf_sim,   
             })
     return rows
 
@@ -201,7 +193,7 @@ def main():
     refs = [row["golden_code"] for row in data]
     hyps = [row["generated_code"] for row in data]
 
-    # metrics
+  
     cbert = compute_codebertscore_batch(refs, hyps, LANGUAGE, BATCH_SIZE_CBERT)
     cscores = compute_codescore_batch_jsonl(refs, hyps)
 
@@ -215,11 +207,11 @@ def main():
         cbert_i = cbert[i] if i < len(cbert) else float("nan")
         cscore  = cscores[i] if i < len(cscores) else float("nan")
 
-        # LoCaL already provides surface_similarity; keep it as surfaceSim
+       
         ss = row.get("surface_similarity", None)
         ss_val = float(ss) if isinstance(ss, (int, float)) else float("nan")
 
-        # score is semantic_similarity; compute |surfaceSim - score|
+       
         gt = row.get("score", None)
         try:
             gt_val = float(gt) if gt is not None else float("nan")
@@ -227,7 +219,7 @@ def main():
             gt_val = float("nan")
         abs_diff = abs(ss_val - gt_val) if not (math.isnan(ss_val) or math.isnan(gt_val)) else float("nan")
 
-        # attach metrics in baseline-compatible names
+ 
         row["codebleu"]      = None if math.isnan(cbleu)   else cbleu
         row["crystalbleu"]   = None if math.isnan(crys)    else crys
         row["codebertscore"] = None if math.isnan(cbert_i) else cbert_i
@@ -235,7 +227,7 @@ def main():
         row["surfaceSim"]    = None if math.isnan(ss_val)  else ss_val
         row["abs_surfaceSim_minus_score"] = None if math.isnan(abs_diff) else abs_diff
 
-        # drop the LoCaL-specific helper key to keep output clean
+   
         row.pop("surface_similarity", None)
 
         out_rows.append(row)

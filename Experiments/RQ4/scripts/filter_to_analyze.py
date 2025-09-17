@@ -4,8 +4,8 @@ import math
 from pathlib import Path
 
 # ====== Config ======
-INPUT_JSONL = Path("../RQ4/Scripts/local_pie_extra_all_mut_only_with_scores.jsonl")  # <-- change path if needed
-OUT_DIR     = Path("worst50_by_metric")
+INPUT_JSONL = Path("local_with_scores.jsonl")  # <-- change path if needed
+OUT_DIR     = Path("worst100_by_metric")
 METRICS     = ["codebleu", "crystalbleu", "codebertscore", "codescore"]
 TOP_K       = 100
 # ====================

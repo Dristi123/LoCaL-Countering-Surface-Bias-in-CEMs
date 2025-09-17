@@ -61,10 +61,11 @@ cd Experiments/RQ5/scripts
 chmod +x run.sh
 ./run.sh
 ```
+This will generate Table 6 inside the [`Experiments/RQ5/results`](Experiments/RQ5/results) directory. <br>
 4. (Optional) To retrain the models 
   - Download the training and validation splits for each p(percentage of LoCaL) from [data_for_RQ5](https://zenodo.org/records/17139161?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImVlOTg3NjkzLTEwYzktNDYyMy1hNDQzLTA4ZmJkYTEwMjkzZiIsImRhdGEiOnt9LCJyYW5kb20iOiJjZjk5YTc0NTE1M2U0MDkyZGRkNWUwNmNiNmJjMzEyMiJ9.ybNeG0zu_Wv32PHgHQtwLl_HCuVevXiRwOS_ewEsFcXDNbxKUxaZFKK0hcePTxUww3Yc4eUTi8vXTSC026R93g)
   - Refer to the [CodeScore repository](https://github.com/Dingjz/CodeScore) for training instructions.
-This will generate Table 6 inside the [`Experiments/RQ5/results`](Experiments/RQ5/results) directory.
+
 ![Table 6 — RQ5 results](assets/table_6.png)
 
 ## Literature Survey
